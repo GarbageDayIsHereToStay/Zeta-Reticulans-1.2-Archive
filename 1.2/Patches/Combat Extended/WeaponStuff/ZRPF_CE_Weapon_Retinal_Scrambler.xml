@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        
+<li Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName="ZRPF_WEAPON_RETINALS_CRAMBLER_DEF"]</xpath>
+    <value>
+      
+        <!--■■■PRESENTATION■■■-->      
+<ThingDef ParentName="ZRPF_WEAPON_BASE_LOW_DEF">
+        <defName>ZRPF_WEAPON_RETINAL_SCRAMBLER_DEF</defName>
+        <label>retinal scrambler</label>
+        <description>A suppression weapon designed to cover withdrawal after procument raids by impairing the sight of pursuers.</description>
+        
+        <graphicData>
+          <texPath>Weapons/ZRPF_Retinal_Scrambler</texPath>
+          <graphicClass>Graphic_Single</graphicClass>        
+        </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        
+        <soundInteract>Interact_Shotgun</soundInteract>
+        
+       
+        <!--■■■STATS + VERBS■■■-->
+        <!--<tradeability>None</tradeability>-->
+        
+        <statBases>
+          <MarketValue>1000</MarketValue>
+          <Mass>3.5</Mass>
+          <Bulk>8</Bulk>
+          <SightsEfficiency>1</SightsEfficiency>
+          <ShotSpread>0.16</ShotSpread>
+          <SwayFactor>0.5</SwayFactor>
+          <RangedWeapon_Cooldown>0.28</RangedWeapon_Cooldown>
+        </statBases>
+        
+        <verbs>
+          <li Class="CombatExtended.VerbPropertiesCE">
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>ZRPF_CEPROJECTILE_RETINALSCRAMBLER_DEF</defaultProjectile>
+            <burstShotCount>2</burstShotCount>  
+            <recoilAmount>0.5</recoilAmount>
+            <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+            <warmupTime>1.7</warmupTime>
+            <range>36.9</range>
+            <soundCast>ZRPF_SOUND_SCRAMBLER_DEF</soundCast>
+            <muzzleFlashScale>4</muzzleFlashScale>
+          </li>
+        </verbs>
+        
+        <comps>
+          <li Class="CombatExtended.CompProperties_FireModes">
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+          </li>
+        </comps>
+        
+        
+        <!--■■■TAGS + TOOLS■■■-->
+        <weaponTags>
+          <li>ZRPF_TAG_WEAPON_LOW_TIER</li>
+        </weaponTags>
+        
+        <tools>
+          <li Class="CombatExtended.ToolCE">
+            <label>stock</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.55</cooldownTime>
+            <chanceFactor>1.5</chanceFactor>
+            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+          </li>
+          <li Class="CombatExtended.ToolCE">
+            <label>barrel</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>5</power>
+            <cooldownTime>2.02</cooldownTime>
+            <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+          </li>
+          <li Class="CombatExtended.ToolCE">
+            <label>muzzle</label>
+            <capacities>
+              <li>Poke</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.55</cooldownTime>
+            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+          </li>
+        </tools>
+        <modExtensions>
+          <li Class="CombatExtended.GunDrawExtension">
+            <DrawSize>1.10,1.15</DrawSize>
+            <DrawOffset>0.1,-0.1</DrawOffset>
+          </li>
+        </modExtensions>
+      </ThingDef>
+    </value>
+</li>   
+      
+</operations>
+</match>
+  
+</Operation>
+
+</Patch>
+

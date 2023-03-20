@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        
+<li Class="PatchOperationReplace">
+   <xpath>*/ThingDef[defName="ZRPF_WEAPON_ANODYNE_INJECTOR_DEF"]</xpath>
+    <value>
+      <ThingDef ParentName="ZRPF_WEAPON_BASE_LOW_DEF">
+        <!--■■■PRESENTATION■■■-->
+        <defName>ZRPF_WEAPON_ANODYNE_INJECTOR_DEF</defName>
+        <label>anodyne injector</label>
+        <description>Used in procument and laboratory control, auto-injectors fire clouds of hypodermic bolts. This particular weapon has internal reservoirs of anesthetic.</description>
+        
+        <graphicData>
+          <texPath>Weapons/ZRPF_Anodyne_Injector</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+        </graphicData>
+        
+        <soundInteract>Interact_Shotgun</soundInteract>
+        
+        <!--■■■STATS + VERBS■■■-->
+        <!--<tradeability>None</tradeability>-->
+        
+        <statBases>
+          <MarketValue>1500</MarketValue>
+          <Mass>3.5</Mass>
+          <Bulk>8</Bulk>
+          <SightsEfficiency>1</SightsEfficiency>
+          <ShotSpread>0.5</ShotSpread>
+          <SwayFactor>2</SwayFactor>
+          <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+        </statBases>
+        
+        <verbs>
+          <li Class="CombatExtended.VerbPropertiesCE">
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+            <burstShotCount>9</burstShotCount>  
+            <recoilAmount>2</recoilAmount>
+            <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+            <warmupTime>1</warmupTime>
+            <range>15.9</range>
+            <soundCast>ZRPF_SOUND_BOLT_DEF</soundCast>
+            <muzzleFlashScale>3</muzzleFlashScale>
+          </li>
+        </verbs>
+        
+        <comps>
+          <li Class="CombatExtended.CompProperties_AmmoUser">
+            <magazineSize>30</magazineSize>
+            <reloadTime>3</reloadTime>
+            <ammoSet>ZRPF_AMMOSET_HYPOBOLT_DEF</ammoSet>
+          </li>
+          <li Class="CombatExtended.CompProperties_FireModes">
+            <aimedBurstShotCount>3</aimedBurstShotCount>
+            <aiUseBurstMode>TRUE</aiUseBurstMode>
+            <aiAimMode>AimedShot</aiAimMode>
+          </li>
+        </comps>
+        
+        
+        <!--■■■TAGS + TOOLS■■■-->
+        <weaponTags>
+          <li>ZRPF_TAG_WEAPON_LOW_TIER</li>
+        </weaponTags>
+        
+        <tools>
+          <li Class="CombatExtended.ToolCE">
+            <label>stock</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.55</cooldownTime>
+            <chanceFactor>1.5</chanceFactor>
+            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+          </li>
+          <li Class="CombatExtended.ToolCE">
+            <label>barrel</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>5</power>
+            <cooldownTime>2.02</cooldownTime>
+            <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+          </li>
+          <li Class="CombatExtended.ToolCE">
+            <label>muzzle</label>
+            <capacities>
+              <li>Poke</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.55</cooldownTime>
+            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+          </li>
+        </tools>
+        <modExtensions>
+          <li Class="CombatExtended.GunDrawExtension">
+            <DrawSize>1.10,1.15</DrawSize>
+            <DrawOffset>0.1,-0.1</DrawOffset>
+          </li>
+        </modExtensions>
+      </ThingDef>
+    </value>
+</li>   
+      
+</operations>
+</match>
+  
+</Operation>
+
+</Patch>
+

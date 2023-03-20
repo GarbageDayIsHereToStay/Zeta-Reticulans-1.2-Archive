@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+
+	<!-- ==================== Ammo Categories ========================== -->
+
+	<CombatExtended.AmmoCategoryDef>
+		<defName>ZRPF_AMMOCATEGORY_GEL_DEF</defName>
+		<label>Gel Reservoir</label>
+		<description>Hollow projectiles outfitted with impact injecter tips and filled with various fuilds</description>
+	</CombatExtended.AmmoCategoryDef>
+						
+
+	<!-- ==================== Thing Categories ========================== -->
+
+	<ThingCategoryDef>
+		<defName>ZRPF_THINGCATEGORY_CONTROL_GEL_DEF</defName>
+		<label>Gel Reservoir</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+	</ThingCategoryDef>
+			
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>ZRPF_AMMOSET_GEL_DEF</defName>
+		<label>Gel Reservoir</label>
+		<ammoTypes>
+		<ZRPF_AMMO_CONTROL_GEL_DEF>ZRPF_CEPROJECTILE_CONTROL_GEL_DEF</ZRPF_AMMO_CONTROL_GEL_DEF>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+    <ThingDef Class="CombatExtended.AmmoDef" Name="ZRPF_AMMO_GEL_BASE_DEF" ParentName="SpacerSmallAmmoBase" Abstract="True">
+    	<description>A ammo reservoir od control gel, a strong adhesive designed to safely incapacitate bio-assets.</description>
+		<graphicData>
+		<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<destroyOnDrop>false</destroyOnDrop>
+		<tradeability>All</tradeability>
+		<tradeTags>
+			<li>ZRPF_RETICULAN_AMMO_LOW_DEF</li>
+		</tradeTags>
+		<stackLimit>120</stackLimit>		
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="ZRPF_AMMO_GEL_BASE_DEF">
+		<defName>ZRPF_AMMO_CONTROL_GEL_DEF</defName>
+		<label>control gel reservoir</label>
+		<graphicData>
+			<texPath>Ammo/Gel/GelControl</texPath>
+		<drawSize>1</drawSize>
+		</graphicData>   
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+			<Mass>0.08</Mass>
+			<Bulk>0.06</Bulk>		
+		</statBases>
+		<thingCategories>
+	     <li>ZRPF_THINGCATEGORY_CONTROL_GEL_DEF</li>
+		</thingCategories>	
+		<ammoClass>ZRPF_AMMOCATEGORY_GEL_DEF</ammoClass>
+	</ThingDef>
+			
+		</value>
+		</match>
+	</Operation>
+</Patch>

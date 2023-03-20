@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="Base6x24mmChargedBullet">
+		<defName>ZRPF_CEPROJECTILE_RETINALSCRAMBLER_DEF</defName>
+		
+		<label>scrambler beam</label>
+		<graphicData>
+			<texPath>Projectiles/ZRPF_Projectile_Retinal_Scrambler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+				
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>ZRPF_DAMAGE_RETINALSCRAMBLER_DEF</damageDef>		
+			<damageAmountBase>4</damageAmountBase>
+			<speed>80</speed>	
+			<armorPenetrationSharp>4</armorPenetrationSharp>
+			<armorPenetrationBlunt>4</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+		</value>
+		</match>
+	</Operation>
+</Patch>

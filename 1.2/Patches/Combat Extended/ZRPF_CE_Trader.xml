@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        
+<!--■■■■■■■■■■■■■■■■■■ TRADER AMMO ■■■■■■■■■■■■■■■■■■■■■■■-->    
+
+        <li Class="PatchOperationAdd">
+          <xpath>*/TraderKindDef[defName="ZRWP_ORBITAL_CANTEEN_LOW_DEF"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>ZRPF_AMMO_ANODYNE_BOLT_DEF</thingDef>
+              <countRange>-80~400</countRange>
+              <price>Expensive</price>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>ZRPF_AMMO_ANODYNE_BOLT_AP_DEF</thingDef>
+              <countRange>-120~200</countRange>
+              <price>Expensive</price>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>ZRPF_AMMO_CONTROL_GEL_DEF</thingDef>
+              <countRange>-120~200</countRange>
+              <price>Expensive</price>
+            </li>
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+  
+</Patch>
+

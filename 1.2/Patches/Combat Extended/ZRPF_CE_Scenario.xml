@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        
+<!--■■■■■■■■■■■■■■■■■■ SCENARIO ■■■■■■■■■■■■■■■■■■■■■■■-->    
+      <!--replaced by shield belts  <li Class="PatchOperationRemove">
+          <xpath>*/ScenarioDef[defName="ZRPF_SCENARIO_DEF"]/scenario/parts/li[11][@Class="ScenPart_StartingThing_Defined"]</xpath>
+        </li> -->
+        
+        <li Class="PatchOperationAdd">
+          <xpath>*/ScenarioDef[defName="ZRPF_SCENARIO_DEF"]/scenario/parts</xpath>
+          <value>
+            <li Class="ScenPart_StartingThing_Defined">
+              <def>StartingThing_Defined</def>
+              <thingDef>ZRPF_AMMO_ANODYNE_BOLT_DEF</thingDef>
+              <count>450</count>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>*/ScenarioDef[defName="ZRPF_SCENARIO_DEF"]/scenario/parts</xpath>
+          <value>
+            <li Class="ScenPart_StartingThing_Defined">
+              <def>StartingThing_Defined</def>
+              <thingDef>ZRPF_AMMO_ANODYNE_BOLT_AP_DEF</thingDef>
+              <count>300</count>
+            </li>
+          </value>
+        </li>
+     <!--   <li Class="PatchOperationAdd">
+          <xpath>*/ScenarioDef[defName="ZRPF_SCENARIO_DEF"]/scenario/parts</xpath>
+          <value>
+            <li Class="ScenPart_StartingThing_Defined">
+              <def>StartingThing_Defined</def>
+              <thingDef>Apparel_AdvancedHelmet</thingDef>
+              <count>2</count>
+            </li>
+          </value>
+        </li> -->
+
+      </operations>
+    </match>
+  </Operation>
+  
+</Patch>
+

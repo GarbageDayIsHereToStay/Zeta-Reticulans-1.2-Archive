@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Combat Extended</li>
+	</mods>
+		<match Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+
+	<!-- ==================== Ammo Categories ========================== -->
+
+	<CombatExtended.AmmoCategoryDef>
+		<defName>ZRPF_AMMOCATEGORY_HYPOBOLT_DEF</defName>
+		<label>Hypo-Bolt</label>
+		<description>Hollow projectiles outfitted with impact injecter tips and filled with various fuilds</description>
+	</CombatExtended.AmmoCategoryDef>
+			
+    <CombatExtended.AmmoCategoryDef>
+    	<defName>ZRPF_AMMOCATEGORY_HYPOBOLT_AP_DEF</defName>
+		<label>Hypo-Bolt (AP)</label>
+    	<description>Hollow projectiles outfitted with impact injecter tips and filled with various fuilds, this is a special high-velocity variant.</description>
+	</CombatExtended.AmmoCategoryDef>
+			
+
+	<!-- ==================== Thing Categories ========================== -->
+
+	<ThingCategoryDef>
+		<defName>ZRPF_THINGCATEGORY_ANODYNE_BOLT_DEF</defName>
+		<label>Hypo Bolt</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+	</ThingCategoryDef>
+			
+   <ThingCategoryDef>
+   	 <defName>ZRPF_THINGCATEGORY_ANODYNE_BOLT_AP_DEF</defName>
+		<label>Hypo Bolt (AP)</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberCharge</iconPath>
+   </ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>ZRPF_AMMOSET_HYPOBOLT_DEF</defName>
+		<label>Hypo Bolt</label>
+		<ammoTypes>
+	    <ZRPF_AMMO_ANODYNE_BOLT_DEF>ZRPF_PROJECTILE_ANODYNE_BOLT_DEF</ZRPF_AMMO_ANODYNE_BOLT_DEF>
+	    <ZRPF_AMMO_ANODYNE_BOLT_AP_DEF>ZRPF_PROJECTILE_ANODYNE_BOLT_AP_DEF</ZRPF_AMMO_ANODYNE_BOLT_AP_DEF>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+    <ThingDef Class="CombatExtended.AmmoDef" Name="ZRPF_AMMO_HYPOBOLT_BASE_DEF" ParentName="SpacerSmallAmmoBase" Abstract="True">
+    	<description>This hypo bolt carries a reservoir of anesthetic.</description>
+		<graphicData>
+	    <texPath>Ammo/Bolt/HypodermicAnodyne</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<destroyOnDrop>false</destroyOnDrop>
+		<tradeability>All</tradeability>
+		<tradeTags>
+			<li>ZRPF_RETICULAN_AMMO_LOW_DEF</li>
+		</tradeTags>
+		<stackLimit>300</stackLimit>		
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="ZRPF_AMMO_HYPOBOLT_BASE_DEF">
+		<defName>ZRPF_AMMO_ANODYNE_BOLT_DEF</defName>
+		<label>anodyne bolt</label>
+		<graphicData>
+	    <texPath>Ammo/Bolt/HypodermicAnodyne</texPath>
+		<drawSize>0.9</drawSize>
+		</graphicData>   
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+			<Mass>0.08</Mass>
+			<Bulk>0.02</Bulk>		
+		</statBases>
+		<thingCategories>
+	     <li>ZRPF_THINGCATEGORY_ANODYNE_BOLT_DEF</li>
+		</thingCategories>	
+		<ammoClass>ZRPF_AMMOCATEGORY_HYPOBOLT_DEF</ammoClass>
+	</ThingDef>
+			
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="ZRPF_AMMO_HYPOBOLT_BASE_DEF">
+		<defName>ZRPF_AMMO_ANODYNE_BOLT_AP_DEF</defName>
+		<label>anodyne bolt (AP)</label>
+		<description>This armor piercing hypo bolt carries a reservoir of anesthetic.</description>
+		<graphicData>
+	    <texPath>Ammo/Bolt/HypodermicAnodyneAP</texPath>
+		<drawSize>0.9</drawSize>
+		</graphicData>   
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+			<Mass>0.09</Mass>
+			<Bulk>0.02</Bulk>		
+	    </statBases>
+	    <thingCategories>
+	    	<li>ZRPF_THINGCATEGORY_ANODYNE_BOLT_AP_DEF</li>
+		</thingCategories>		
+		<ammoClass>ZRPF_AMMOCATEGORY_HYPOBOLT_AP_DEF</ammoClass>
+    </ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="Base6x24mmChargedBullet">
+		<defName>ZRPF_PROJECTILE_ANODYNE_BOLT_DEF</defName>
+		<label>anodyne bolt</label>
+<!--	<thingClass>VFEV.CryptoBullet</thingClass> -->
+		<graphicData>
+			<texPath>Projectiles/ZRPF_Projectile_Anodyne_Injector</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>ZRPF_DAMAGE_ANODYNE_INJECTOR_DEF</damageDef>		
+			<damageAmountBase>1</damageAmountBase>
+			<speed>45</speed>	
+			<armorPenetrationSharp>1</armorPenetrationSharp>
+			<armorPenetrationBlunt>2</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base6x24mmChargedBullet">
+		<defName>ZRPF_PROJECTILE_ANODYNE_BOLT_AP_DEF</defName>
+		<label>anodyne bolt (AP)</label>
+<!--	<thingClass>VFEV.CryptoBullet</thingClass> -->
+		<graphicData>
+			<texPath>Projectiles/ZRPF_Projectile_Anodyne_Injector</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>ZRPF_DAMAGE_ANODYNE_INJECTOR_DEF</damageDef>		
+			<damageAmountBase>1</damageAmountBase>
+			<speed>60</speed>	
+			<armorPenetrationSharp>24</armorPenetrationSharp>
+			<armorPenetrationBlunt>40</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+		</value>
+		</match>
+	</Operation>
+</Patch>
