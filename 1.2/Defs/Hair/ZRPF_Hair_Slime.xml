@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HairDef>
+    <defName>ZRPF_HAIR_SLIMELONG_DEF</defName>
+    <label>SlimeLong1</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hair/Slime/Short1</texPath>
+    <hairTags>
+      <li>HAIRTAG_SLIME_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+
+</Defs>

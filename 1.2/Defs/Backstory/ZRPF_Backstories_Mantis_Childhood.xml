@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--■■■■■■■■■■■■■■■■■
+        Childhood
+        1. Bio-Printed
+        ■■■■■■■■■■■■■■■■■--> 
+  
+<!--■■■■■■■■■■■■■■■■■■ MANTIS ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_MANTIS_HYBRID_DEF</defName>
+    <title>bio-printed: MT hybrid</title>
+    <titleShort>mantis hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+     
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Mantis</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!--■■■■■■■■■■■■■■■■■■ MANTIS ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_MANTIS_HYBRID_TWO_DEF</defName>
+    <title>bio-printed: MT hybrid</title>
+    <titleShort>human hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Mantis</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<!--■■■■■■■■■■■■■■■■■■ MANTIS ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_MANTIS_HYBRID_THREE_DEF</defName>
+    <title>bio-printed: MT hybrid</title>
+    <titleShort>human hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Mantis</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<!--■■■■■■■■■■■■■■■■■■ MANTIS ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_MANTIS_HYBRID_FOUR_DEF</defName>
+    <title>bio-printed: MT hybrid</title>
+    <titleShort>human hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Mantis</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+</Defs>
+<!-- <forcedHediffs>
+  <li>ZRPF_HEDIFF_UI_HIDER_COMFORT_DEF</li>
+</forcedHediffs> -->

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== Rural ==================== -->
+
+
+  <HairDef>
+    <defName>ZRPF_Princess</defName>
+    <label>princess</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Princess</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Scatman</defName>
+    <label>scatman</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scat</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <!-- ==================== Urban ==================== -->
+
+
+  <HairDef>
+    <defName>ZRPF_Revolt</defName>
+    <label>revolt</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Revolt</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Bob</defName>
+    <label>bob</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bob</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Cleopatra</defName>
+    <label>cleopatra</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Cleopatra</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Cute</defName>
+    <label>cute</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Cute</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Decent</defName>
+    <label>decent</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Decent</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_FancyBun</defName>
+    <label>fancy bun</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/FancyBun</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>ZRPF_Flowy</defName>
+    <label>flowy</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Flowy</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Long</defName>
+    <label>long</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Long</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+ <HairDef>
+    <defName>ZRPF_Mop</defName>
+    <label>mop</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mop</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>ZRPF_Messy</defName>
+    <label>messy</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mess</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Fringe</defName>
+    <label>fringe</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Fringe</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Frozen</defName>
+    <label>frozen</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Frozen</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Bowlcut</defName>
+    <label>bowlcut</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bowlcut</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Bowlcut2</defName>
+    <label>bowlcut</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bowlcut</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Bowlcut3</defName>
+    <label>bowlcut</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bowlcut</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Recruit</defName>
+    <label>recruit</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Recruit</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Junkie</defName>
+    <label>junkie</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Junkie</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Scrapper</defName>
+    <label>scrapper</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scrapper</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Randy</defName>
+    <label>randy</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Randy</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Rookie</defName>
+    <label>rookie</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Rookie</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>ZRPF_Warden</defName>
+    <label>warden</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Warden</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Elder</defName>
+    <label>elder</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Elder</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Locks</defName>
+    <label>locks</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Locks</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Locks2</defName>
+    <label>locks</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Locks</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Locks3</defName>
+    <label>locks</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Locks</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Locks4</defName>
+    <label>locks</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Locks</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  
+  
+
+  <HairDef>
+    <defName>ZRPF_Savage</defName>
+    <label>savage</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Savage</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Sticky</defName>
+    <label>sticky</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Sticky</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRIDl</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Shaved</defName>
+    <label>shaved</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Shaved2</defName>
+    <label>shaved</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_Shaved3</defName>
+    <label>shaved</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_ShavedFemale</defName> <!-- This is a bit of a hack to get more female shave-headed soldiers -->
+    <label>shaved</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_Tuft</defName>
+    <label>tuft</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Tuft</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>ZRPF_Topdog</defName>
+    <label>topdog</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Topdog</texPath>
+    <hairTags>
+      <li>HAIRTAG_HUMAN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+</Defs>

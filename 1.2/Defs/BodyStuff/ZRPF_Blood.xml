@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--■■■ ZETA RETICULAN ■■■-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>ZRPF_BLOOD_DEF</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(52, 52, 52)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef> 
+  
+  <!--■■■ GERZEE ■■■-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>ZRPF_BLOOD_GERZEE_DEF</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(122,255,255)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>50</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+  
+  
+  <!--■■■ FORSAKEN ■■■-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>ZRPF_BLOOD_FORSAKEN_DEF</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(241,192,69)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+  
+  <!--■■■ THRUMKIN ■■■-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>ZRPF_BLOOD_THRUMKIN_DEF</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(241,241,241)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+  
+  <!--■■■ HUMAN ■■■-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>ZRPF_BLOOD_HUMAN_DEF</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(123,78,78)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+  
+  <!--■■■ MOYO ■■■-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>ZRPF_BLOOD_MOYO_DEF</defName>
+    <label>blood</label>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-10</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(28, 53, 130, 180)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+
+</Defs>

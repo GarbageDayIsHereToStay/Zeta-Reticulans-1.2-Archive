@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<FactionDef Abstract="True" Name="ZRPF_PLAYER_FACTION_BASE">
+ 
+  <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  <colorSpectrum>
+    <li>(200, 200, 200)</li>
+  </colorSpectrum>
+  
+</FactionDef> 
+  
+<FactionDef Parent="ZRPF_PLAYER_FACTION_BASE">
+    
+  <defName>ZRPF_FACTION_PLAYER_DEF</defName>
+  <label>Zeta Reticulan</label>
+  <description>Your research compound.</description>
+  <isPlayer>true</isPlayer>
+  
+  <fixedName>Zeta Reticulan</fixedName>
+  <factionNameMaker>ZRPF_FACTION_NAMER_DEF</factionNameMaker>
+  <settlementNameMaker>ZRPF_SETTLEMENT_NAMER_DEF</settlementNameMaker>
+  <playerInitialSettlementNameMaker>ZRPF_SETTLEMENT_NAMER_DEF</playerInitialSettlementNameMaker>
+  
+  
+  <basicMemberKind>ZRPF_PLAYER_PAWN_DEF</basicMemberKind>
+  <!--<pawnNameMaker>ZRPF_NAMER_DEF</pawnNameMaker>-->
+  <pawnSingular>researcher</pawnSingular>
+  
+  <pawnsPlural>researchers</pawnsPlural>
+  
+  <techLevel>Ultra</techLevel>
+  <!--Zeta_Reticulan-->
+  <backstoryCategories>
+    <li>Offworld</li>
+    <li>Tribal</li>
+  </backstoryCategories>
+  <geneticVariance>0.1</geneticVariance>
+  
+  
+  <settlementTexturePath>World/WorldObjects/ZRPF_Settlement</settlementTexturePath>
+  <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+  
+  <startingResearchTags>
+    <li>ClassicStart</li>
+    <li>ClassicStartTechprints</li>
+  </startingResearchTags>
+  
+  <hairTags>
+    <li>Urban</li>
+  </hairTags>
+  
+  <apparelStuffFilter>
+    <thingDefs>
+      <li>Hyperweave</li>
+    </thingDefs>
+  </apparelStuffFilter>
+ 
+</FactionDef>
+  
+</Defs>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<Defs>
+  
+  <!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <BodyPartDef>
+    <defName>ZRPF_Eyestalk_RightF_Def</defName>
+    <label>left front eye stalk</label>
+    <hitPoints>6</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>false</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0.3</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>ZRPF_Eyestalk_LeftF_Def</defName>
+    <label>right front eye stalk</label>
+    <hitPoints>6</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>false</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0.3</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>ZRPF_Eyestalk_LeftB_Def</defName>
+    <label>left back eye stalk</label>
+    <hitPoints>6</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>false</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0.3</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+
+
+  <BodyPartDef>
+    <defName>ZRPF_Eyestalk_RightB_Def</defName>
+    <label>right back eye stalk</label>
+    <hitPoints>6</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>false</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0.3</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+
+  <!--■■■■■■■■■■■■■■■■■■ THRUMKIN ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <BodyPartDef>
+    <defName>ZRPF_Thrumkin_Horn_Def</defName>
+    <label>horn</label>
+    <hitPoints>16</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <spawnThingOnRemoved>ThrumboHorn</spawnThingOnRemoved>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ MOYO ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <BodyPartDef>
+    <defName>ZRPF_Moyo_Tail</defName>
+    <label>tail</label>
+    <hitPoints>30</hitPoints>
+    <frostbiteVulnerability>3</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ MANTIS ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <!--■■■ PART GROUPS ■■■-->
+  <BodyPartGroupDef>
+    <defName>ZRPF_PARTGROUP_RIGHT_CLAW_ATTACKTOOL_DEF</defName>
+    <label>right claw</label>
+    <listOrder>85</listOrder>
+  </BodyPartGroupDef>
+  <!-- left claw group -->
+  <BodyPartGroupDef>
+    <defName>ZRPF_PARTGROUP_LEFT_CLAW_ATTACKTOOL_DEF</defName>
+    <label>left claw</label>
+    <listOrder>75</listOrder>
+  </BodyPartGroupDef>
+  
+  <!--■■■ BODY PARTS  ■■■-->
+  <!--■ Claw Base ■-->
+  <BodyPartDef Name="ZRPF_BodyPart_Mantis_Claws_Base" Abstract="True">
+    <hitPoints>20</hitPoints>
+    <!-- <isSolid>true</isSolid> -->
+    <frostbiteVulnerability>.05</frostbiteVulnerability>
+    
+    <!-- <amputateIfGeneratedInjuredChance>0.2</amputateIfGeneratedInjuredChance> -->
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>ManipulationLimbDigit</li>
+    </tags>
+  </BodyPartDef>
+  
+  <!--■ Right Claw ■-->
+  <BodyPartDef ParentName="ZRPF_BodyPart_Mantis_Claws_Base">
+    <defName>ZRPF_BODY_PART_MANTIS_RIGHT_CLAW_DEF</defName>
+    <label>right claw</label>
+  </BodyPartDef>
+  <!--■ Left Claw ■-->  
+  <BodyPartDef ParentName="ZRPF_BodyPart_Mantis_Claws_Base">
+    <defName>ZRPF_BODY_PART_MANTIS_LEFT_CLAW_DEF</defName>
+    <label>left claw</label>
+  </BodyPartDef>
+  
+  
+</Defs>
+
+
+
+
+
+
+
+

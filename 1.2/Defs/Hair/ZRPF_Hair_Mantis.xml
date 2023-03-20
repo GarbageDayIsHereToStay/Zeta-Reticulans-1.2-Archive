@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <HairDef>
+    <defName>ZRPF_HAIR_MANTIS_BALD_ONE_DEF</defName>
+    <label>MantisBald</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Mantis/Bald</texPath>
+    <hairTags>
+      <li>HAIRTAG_MANTIS_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_HAIR_MANTIS_CROWN_ONE_DEF</defName>
+    <label>MantisCrown1</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Mantis/Crown1</texPath>
+    <hairTags>
+      <li>HAIRTAG_MANTIS_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+</Defs>

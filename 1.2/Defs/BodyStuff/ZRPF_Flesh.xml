@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  
+  <!--■■■ ZETA RETICULAN ■■■-->
+  <FleshTypeDef>
+    <defName>ZRPF_FLESH_DEF</defName>
+    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
+    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    
+    <wounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>46, 46, 46</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>46, 46, 46</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>46, 46, 46</color>
+      </li>
+    </wounds>
+  </FleshTypeDef>
+  
+  <!--■■■ GERZEE ■■■-->
+  <FleshTypeDef>
+    <defName>ZRPF_FLESH_GERZEE_DEF</defName>
+    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
+    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    
+    <wounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>113,182,182</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>113,182,182</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>109,180,180</color>
+      </li>
+    </wounds>   
+  </FleshTypeDef>
+  
+  <!--■■■ FORSAKEN ■■■-->
+  <FleshTypeDef>
+    <defName>ZRPF_FLESH_FORSAKEN_DEF</defName>
+    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
+    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    
+    <wounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>207,169,81</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>207,169,81</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>207,169,81</color>
+      </li>
+    </wounds> 
+  </FleshTypeDef>
+  
+  <!--■■■ THRUMKIN ■■■-->
+  <FleshTypeDef>
+    <defName>ZRPF_FLESH_THRUMKIN_DEF</defName>
+    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
+    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    
+    <wounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>234,234,234</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>234,234,234</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>234,234,234</color>
+      </li>
+    </wounds>
+  </FleshTypeDef>
+  
+  <!--■■■ HUMAN ■■■-->
+  <FleshTypeDef>
+    <defName>ZRPF_FLESH_HUMAN_DEF</defName>
+    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
+    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    
+    <wounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>109,59,59</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>109,59,59</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>109,59,59</color>
+      </li>
+    </wounds>
+  </FleshTypeDef>
+  
+  <!--■■■ MOYO ■■■-->
+  <FleshTypeDef>
+    <defName>ZRPF_FLESH_MOYO_DEF</defName>
+    <ateDirect>AteHumanlikeMeatDirect</ateDirect>
+    <ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    
+    <wounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundA</texture>
+        <color>28,53,130</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundB</texture>
+        <color>28,53,130</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundC</texture>
+        <color>28,53,130</color>
+      </li>
+    </wounds>
+  </FleshTypeDef>
+  
+</Defs>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--■■■■■■■■■■■■■■■■■
+        Adulthood
+        1. Fabricator 
+        2. Comptroller
+        3. Analyst
+        4. Disassembler
+        5. Procurer
+        6. Agronomist
+        Childhood
+        1. Bio-Printed
+        ■■■■■■■■■■■■■■■■■--> 
+  
+         <!-- Dupes are for generations requiements so it doesn't have to dip into other backstory pools-->
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ADULTHOOD■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+   
+  
+    <!--■■■1. FABRICATOR■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_FABRICATOR</defName>
+    <title>fabricator</title>
+    <titleShort>fabricator</titleShort>
+    <baseDescription>[PAWN_nameDef] has advanced knowledge in fabrication.</baseDescription>
+
+    <slot>Adulthood</slot>
+    
+   <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+     <li>
+      <defName>Construction</defName>
+      <amount>6</amount>
+    </li>
+     <li>
+       <defName>Medicine</defName>
+       <amount>-2</amount>
+     </li>
+     <li>
+       <defName>Plants</defName>
+       <amount>-2</amount>
+     </li>
+     <li>
+       <defName>Intellectual</defName>
+       <amount>-2</amount>
+     </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_FABRICATOR_TWO</defName>
+    <title>fabricator</title>
+    <titleShort>fabricator</titleShort>
+    <baseDescription>[PAWN_nameDef] has advanced knowledge in fabrication.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_FABRICATOR_THREE</defName>
+    <title>fabricator</title>
+    <titleShort>fabricator</titleShort>
+    <baseDescription>[PAWN_nameDef] has advanced knowledge in fabrication.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+    <!--■■■2. COMPTROLLER■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_COMPTROLLER</defName>
+    <title>efficiency comptroller</title>
+    <titleShort>comptroller</titleShort>
+    <baseDescription>[PAWN_nameDef] has a detailed understanding of macro ergonomics and systems management.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_COMPTROLLER_TWO</defName>
+    <title>efficiency comptroller</title>
+    <titleShort>comptroller</titleShort>
+    <baseDescription>[PAWN_nameDef] has a detailed understanding of macro ergonomics and systems management.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_COMPTROLLER_THREE</defName>
+    <title>efficiency comptroller</title>
+    <titleShort>comptroller</titleShort>
+    <baseDescription>[PAWN_nameDef] has a detailed understanding of macro ergonomics and systems management.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+    <!--■■■3. ANALYST■■■-->
+<AlienRace.BackstoryDef>
+  <defName>ZRPF_ANALYST</defName>
+  <title>analyst</title>
+  <titleShort>analyst</titleShort>
+  <baseDescription>[PAWN_nameDef]'s function is to process collected data into information packets.</baseDescription>
+  
+  <slot>Adulthood</slot>
+  <skillGains>
+    <li>
+      <defName>Medicine</defName>
+      <amount>2</amount>
+    </li>
+    <li>
+      <defName>Cooking</defName>
+      <amount>2</amount>
+    </li>
+    <li>
+      <defName>Intellectual</defName>
+      <amount>8</amount>
+    </li>
+    <li>
+      <defName>Mining</defName>
+      <amount>-2</amount>
+    </li>
+    <li>
+      <defName>Construction</defName>
+      <amount>-2</amount>
+    </li>
+    <li>
+      <defName>Plants</defName>
+      <amount>-2</amount>
+    </li>
+  </skillGains> 
+  
+  <spawnCategories>
+    <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+  </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_ANALYST_TWO</defName>
+    <title>analyst</title>
+    <titleShort>analyst</titleShort>
+    <baseDescription>[PAWN_nameDef]'s function is to process collected data into information packets.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_ANALYST_THREE</defName>
+    <title>analyst</title>
+    <titleShort>analyst</titleShort>
+    <baseDescription>[PAWN_nameDef]'s function is to process collected data into information packets.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+    <!--■■■4. DISASSEMBLER■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_DISASSEMBLER</defName>
+    <title>specimen disassembler</title>
+    <titleShort>disassembler</titleShort>
+    <baseDescription>[PAWN_nameDef] is practiced in the handling of biomaterials.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_DISASSEMBLER_TWO</defName>
+    <title>specimen disassembler</title>
+    <titleShort>disassembler</titleShort>
+    <baseDescription>[PAWN_nameDef] is practiced in the handling of biomaterials.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_DISASSEMBLER_THREE</defName>
+    <title>specimen disassembler</title>
+    <titleShort>disassembler</titleShort>
+    <baseDescription>[PAWN_nameDef] is practiced in the handling of biomaterials.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+    <!--■■■5. PROCURER■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_PROCURER</defName>
+    <title>procurer</title>
+    <titleShort>procurer</titleShort>
+  <baseDescription>[PAWN_nameDef]'s expertise is in the retrieval of new research material.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_PROCURER_TWO</defName>
+    <title>procurer</title>
+    <titleShort>procurer</titleShort>
+    <baseDescription>[PAWN_nameDef]'s expertise is in the retrieval of new research material.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_PROCURER_THREE</defName>
+    <title>procurer</title>
+    <titleShort>procurer</titleShort>
+    <baseDescription>[PAWN_nameDef]'s expertise is in the retrieval of new research material.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+    <!--■■■6. AGRONOMIST■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_AGRONOMIST</defName>
+    <title>agronomist</title>
+    <titleShort>agronomist</titleShort>
+    <baseDescription>Production of flora for use in chemical synthesis, fabrication, and nutrition is [PAWN_nameDef]'s specialty.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_AGRONOMIST_TWO</defName>
+    <title>agronomist</title>
+    <titleShort>agronomist</titleShort>
+    <baseDescription>Production of flora for use in chemical synthesis, fabrication, and nutrition is [PAWN_nameDef]'s specialty.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_AGRONOMIST_THREE</defName>
+    <title>agronomist</title>
+    <titleShort>agronomist</titleShort>
+    <baseDescription>Production of flora for use in chemical synthesis, fabrication, and nutrition is [PAWN_nameDef]'s specialty.</baseDescription>
+    
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>8</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Adulthood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+</Defs>
+
+<!-- <forcedHediffs>
+  <li>ZRPF_HEDIFF_UI_HIDER_COMFORT_DEF</li>
+</forcedHediffs> -->

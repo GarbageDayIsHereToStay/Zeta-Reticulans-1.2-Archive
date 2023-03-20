@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ BASE CHILDHOODS ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BIOPRINTED</defName>
+    <title>bio-printed</title>
+    <titleShort>bio-printed</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+
+    <slot>Childhood</slot>
+      
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+  
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Base</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+ 
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BIOPRINTED_TWO</defName>
+    <title>bio-printed</title>
+    <titleShort>bio-printed</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed.</baseDescription>
+    
+    <slot>Childhood</slot>
+  
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Base</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef> 
+  
+  <AlienRace.BackstoryDef>
+    <defName>ZRPF_BIOPRINTED_THREE</defName>
+    <title>bio-printed</title>
+    <titleShort>bio-printed</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed.</baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Base</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef> 
+
+  <AlienRace.BackstoryDef>
+    <defName>ZRPF_BIOPRINTED_FOUR</defName>
+    <title>bio-printed</title>
+    <titleShort>bio-printed</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed.</baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Base</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef> 
+  
+</Defs>
+
+

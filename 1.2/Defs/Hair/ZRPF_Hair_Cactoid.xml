@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+  <HairDef>
+    <defName>ZRPF_HAIR_BALD_DEF</defName>
+    <label>CactoidBald</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Cactoid/Bald</texPath>
+    <hairTags>
+      <li>HAIRTAG_CACTOID_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_HAIR_FLOWER_ONE_DEF</defName>
+    <label>CactoidFlowerTuft</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Cactoid/Flower1</texPath>
+    <hairTags>
+      <li>HAIRTAG_CACTOID_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_HAIR_CACTOID_SPINES_ONE_DEF</defName>
+    <label>CactoidSpines1</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Cactoid/Spines1</texPath>
+    <hairTags>
+      <li>HAIRTAG_CACTOID_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>ZRPF_HAIR_CACTOID_SPINES_TWO_DEF</defName>
+    <label>CactoidSpines2</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Cactoid/Spines2</texPath>
+    <hairTags>
+      <li>HAIRTAG_CACTOID_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+</Defs>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--■■■■■■■■■■■■■■■■■
+        Childhood
+        1. Bio-Printed
+        ■■■■■■■■■■■■■■■■■--> 
+  
+<!--■■■■■■■■■■■■■■■■■■ THRUMKIN ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_THRUMKIN_HYBRID_DEF</defName>
+    <title>bio-printed: TK hybrid</title>
+    <titleShort>thrumkin hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Thrumkin</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_THRUMKIN_HYBRID_TWO_DEF</defName>
+    <title>bio-printed: TK hybrid</title>
+    <titleShort>thrumkin hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Thrumkin</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_THRUMKIN_HYBRID_THREE_DEF</defName>
+    <title>bio-printed: TK hybrid</title>
+    <titleShort>thrumkin hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Thrumkin</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_THRUMKIN_HYBRID_FOUR_DEF</defName>
+    <title>bio-printed: TK hybrid</title>
+    <titleShort>thrumkin hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-20</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Thrumkin</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+</Defs>
+<!-- <forcedHediffs>
+  <li>ZRPF_HEDIFF_UI_HIDER_COMFORT_DEF</li>
+</forcedHediffs> -->

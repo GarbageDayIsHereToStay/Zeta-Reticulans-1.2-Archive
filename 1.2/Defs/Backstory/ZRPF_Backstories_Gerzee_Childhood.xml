@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--■■■■■■■■■■■■■■■■
+        Childhood
+        1. Bio-Printed
+        ■■■■■■■■■■■■■■■■■--> 
+  
+<!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_GERZEE_HYBRID_DEF</defName>
+    <title>bio-printed: GZ hybrid</title>
+    <titleShort>gerzee hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    
+    <disallowedTraits>
+      <li><defName>ShootingAccuracy</defName></li>
+    </disallowedTraits>
+    
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-5</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Gerzee</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_GERZEE_HYBRID_TWO_DEF</defName>
+    <title>bio-printed: GZ hybrid</title>
+    <titleShort>gerzee hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    
+    <disallowedTraits>
+      <li><defName>ShootingAccuracy</defName></li>
+    </disallowedTraits>
+    
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-5</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Gerzee</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_GERZEE_HYBRID_THREE_DEF</defName>
+    <title>bio-printed: GZ hybrid</title>
+    <titleShort>gerzee hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    
+    <disallowedTraits>
+      <li><defName>ShootingAccuracy</defName></li>
+    </disallowedTraits>
+    
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-5</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Gerzee</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_GERZEE_HYBRID_FOUR_DEF</defName>
+    <title>bio-printed: GZ hybrid</title>
+    <titleShort>gerzee hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    
+    <disallowedTraits>
+      <li><defName>ShootingAccuracy</defName></li>
+    </disallowedTraits>
+    
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-20</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-5</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_Gerzee</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+</Defs>
+<!-- <forcedHediffs>
+  <li>ZRPF_HEDIFF_UI_HIDER_COMFORT_DEF</li>
+</forcedHediffs> -->

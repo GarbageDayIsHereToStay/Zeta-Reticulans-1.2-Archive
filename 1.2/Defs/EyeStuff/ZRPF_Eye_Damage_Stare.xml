@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■1. STARE DAMAGE■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+<DamageDef Name="ZRPF_DAMAGE_STARE_BASE">
+    <defName>ZRPF_DAMAGE_STARE_DEF</defName>
+    <label>stare</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    
+    <hediff>ZRPF_HEDIFF_STARING_PROCEDURE_DEF</hediff>
+    <hediffSkin>ZRPF_HEDIFF_STARING_PROCEDURE_DEF</hediffSkin>
+    <hediffSolid>ZRPF_HEDIFF_STARING_PROCEDURE_DEF</hediffSolid>
+    <additionalHediffs>
+      <li>
+        <hediff>ZRPF_HEDIFF_TELEKINETIC_SCALENE_DEF</hediff>
+        <severityPerDamageDealt>0.01234</severityPerDamageDealt>
+        <victimSeverityScaling>ZRPF_STAT_SCALENE_SUSCEPTIBILITY_DEF</victimSeverityScaling>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    
+    <damageEffecter>ZRPF_EFFECTER_TELEKINETIC_RADIATION_DEF</damageEffecter>
+    <defaultDamage>5</defaultDamage>
+    <defaultArmorPenetration>1.7</defaultArmorPenetration>
+    <armorCategory>Blunt</armorCategory>
+    <impactSoundType>ZRPF_IMPACT_SOUND_STARE_HIT_DEF</impactSoundType>
+  
+    <harmsHealth>true</harmsHealth>
+    <makesBlood>true</makesBlood>
+    <externalViolence>true</externalViolence>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    
+    <deathMessage>{0} has died from telekinetic radiation.</deathMessage>
+    
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+</DamageDef>
+  
+<ImpactSoundTypeDef>
+    <defName>ZRPF_IMPACT_SOUND_STARE_HIT_DEF</defName>
+    <soundDef>ZRPF_SOUND_STARE_HIT_DEF</soundDef>
+    <playOnlyIfHitPawn>true</playOnlyIfHitPawn>
+</ImpactSoundTypeDef>
+  
+</Defs>
+

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ EFFECTER DEF ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+<EffecterDef>
+    <defName>ZRPF_EFFECTER_TELEKINETIC_RADIATION_DEF</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>ZRPF_MOTE_TELEKINETIC_RADIATION_DEF</moteDef>
+        <burstCount>3</burstCount>
+        <positionLerpFactor>1</positionLerpFactor>
+        <spawnLocType>OnSource</spawnLocType>
+        <airTime>1~1</airTime>
+        <positionRadius>0.25</positionRadius>
+        <rotation>0~330</rotation>
+        <rotationRate>120~220</rotationRate>
+      </li>
+    </children>
+</EffecterDef>
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ MOTE DEF ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+<ThingDef Abstract="True" Name="ZRPF_MoteGlowDistortBackground" ParentName="MoteBase">
+    <graphicData>
+      <shaderType>MoteGlowDistortBackground</shaderType>
+      <shaderParameters>
+        <_DistortionTex>/Motes/Effecters/ZRPF_TelekineticRadiationDistortionMask</_DistortionTex>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="ZRPF_MoteGlowDistortBackground">
+    <defName>ZRPF_MOTE_TELEKINETIC_RADIATION_DEF</defName>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.02</fadeInTime>
+      <fadeOutTime>0.175</fadeOutTime>
+      <solidTime>0.2</solidTime>
+      <growthRate>-2.4</growthRate>
+      <collide>false</collide>
+    </mote>
+    <graphicData>
+      <texPath>Things/Mote/Black</texPath>
+      <shaderParameters>
+        <_distortionIntensity>0.3</_distortionIntensity>
+        <_brightnessMultiplier>1.2</_brightnessMultiplier>
+      </shaderParameters>
+      <drawSize>1</drawSize>
+    </graphicData>
+</ThingDef>
+
+</Defs>

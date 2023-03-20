@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!--■■■■■■■■■■■■■■■■■■ BLOODELF ■■■■■■■■■■■■■■■■■■■■■■■-->
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_BLOODELF_HYBRID_DEF</defName>
+    <title>bio-printed: BDE hybrid</title>
+    <titleShort>blood elf hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_BloodElf</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_BLOODELF_HYBRID_TWO_DEF</defName>
+    <title>bio-printed: BDE hybrid</title>
+    <titleShort>blood elf hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_BloodElf</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_BLOODELF_HYBRID_THREE_DEF</defName>
+    <title>bio-printed: BDE hybrid</title>
+    <titleShort>blood elf hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+    
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_BloodElf</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+<AlienRace.BackstoryDef>
+    <defName>ZRPF_BACKSTORY_BIOPRINTED_BLOODELF_HYBRID_FOUR_DEF</defName>
+    <title>bio-printed: BDE hybrid</title>
+    <titleShort>blood elf hybrid</titleShort>
+    <baseDescription>[PAWN_nameDef] was bio-printed. </baseDescription>
+    
+    <slot>Childhood</slot>
+
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-15</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-15</amount>
+      </li>
+    </skillGains> 
+    
+    <spawnCategories>
+      <li>Zeta_Reticulan_Backstories_Childhood_BloodElf</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+  
+</Defs>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  
+  <FactionDef Name="ZRPF_HIDDEN_FACTION_BASE">
+    
+    <defName>ZRPF_HIDDEN_TRADER_DEF</defName>
+    <label>Zeta Reticulan</label>
+    <description>Your research compound.</description>
+    <hidden>true</hidden>
+    
+    <humanlikeFaction>false</humanlikeFaction>
+    <isPlayer>false</isPlayer>
+    <permanentEnemyToEveryoneExcept>
+      <li>ZRPF_FACTION_PLAYER_DEF</li>
+    </permanentEnemyToEveryoneExcept>
+    
+    <fixedName>Zeta Reticulan</fixedName>
+    <factionNameMaker>ZRPF_FACTION_NAMER_DEF</factionNameMaker>
+    <settlementNameMaker>ZRPF_SETTLEMENT_NAMER_DEF</settlementNameMaker>
+    <playerInitialSettlementNameMaker>ZRPF_SETTLEMENT_NAMER_DEF</playerInitialSettlementNameMaker>
+    
+    
+    
+    <basicMemberKind>ZRPF_PLAYER_PAWN_DEF</basicMemberKind>
+    <baseTraderKinds>
+      <li>ZRPF_ORBITAL_CANTEEN_LOW_DEF</li>
+      <li>ZRPF_ORBITAL_REBATESHIP_LOW_DEF</li>
+      <li>ZRPF_ORBITAL_VIVARIUMSHIP_LOW_DEF</li>
+    </baseTraderKinds>
+    <!--<pawnNameMaker>ZRPF_NAMER_DEF</pawnNameMaker>-->
+    <pawnSingular>researcher</pawnSingular>
+    
+    <pawnsPlural>researchers</pawnsPlural>
+    
+    <techLevel>Ultra</techLevel>
+    
+    <factionIconPath>World/WorldObjects/ZRPF_Faction_Base</factionIconPath>
+    
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+    
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+</Defs>

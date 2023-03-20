@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HairDef>
+    <defName>ZRPF_HAIR_THRUMKINMANE_ONE_DEF</defName>
+    <label>ThrumkinMane1</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Thrumkin/Mane1</texPath>
+    <hairTags>
+      <li>HAIRTAG_THRUMKIN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_HAIR_THRUMKINMANE_TWO_DEF</defName>
+    <label>ThrumkinMane2</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Thrumkin/Mane2</texPath>
+    <hairTags>
+      <li>HAIRTAG_THRUMKIN_HYBRID</li>
+    </hairTags>
+  </HairDef>
+  
+</Defs>

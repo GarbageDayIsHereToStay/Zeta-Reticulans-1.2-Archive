@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■RACE SETTINGS■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->  
+<AlienRace.RaceSettings>
+    <defName>ZRPF_RACE_SETTING_DEF</defName>
+    <pawnKindSettings>
+      
+
+      <!--■■■ STARTING PLAYER COLONISTS ■■■-->  
+      <startingColonists>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>ZRPF_PLAYER_PAWN_HUMAN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_GERZEE_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_FORSAKEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_THRUMKIN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_SCALEMEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_CACTOID_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MOYO_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MANTIS_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_ASTORIEL_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_DROW_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_NIGHTELF_HYBRID_DEF</li>
+              </kindDefs>
+              <chance>6</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>ZRPF_FACTION_PLAYER_DEF</li>
+          </factionDefs>
+        </li>
+        
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>ZRPF_PLAYER_PAWN_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_HUMAN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_GERZEE_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_FORSAKEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_THRUMKIN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_SCALEMEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_CACTOID_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MOYO_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MANTIS_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_ASTORIEL_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_DROW_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_NIGHTELF_HYBRID_DEF</li>
+              </kindDefs>
+              <chance>5</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerColony</li>
+          </factionDefs>
+        </li>
+   </startingColonists>
+    
+    
+    <!--■■■ REFUGEE ■■■-->  
+    <!--VV Refugee and slave seem to be locked at 50/50 between human/zeta drops, tried 0.1-16 VV-->
+      <alienrefugeekinds>
+        <li>
+          <kindDefs>
+            <li>ZRPF_PLAYER_PAWN_DEF</li>
+          </kindDefs>
+          <chance>1</chance>
+        </li>
+        <li>
+          <kindDefs>
+            <li>ZRPF_PLAYER_PAWN_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_HUMAN_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_GERZEE_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_FORSAKEN_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_THRUMKIN_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_SCALEMEN_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_CACTOID_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_MOYO_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_MANTIS_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_ASTORIEL_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_DROW_HYBRID_DEF</li>
+            <li>ZRPF_PLAYER_PAWN_NIGHTELF_HYBRID_DEF</li>
+          </kindDefs>
+          <chance>1</chance>
+        </li>
+      </alienrefugeekinds>
+       
+    <!--■■■ WANDERERS ■■■-->  
+      <alienwandererkinds>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>ZRPF_PLAYER_PAWN_DEF</li>
+              </kindDefs>
+              <chance>20</chance>
+            </li>
+            <li>
+              <kindDefs>
+                <li>ZRPF_PLAYER_PAWN_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_HUMAN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_GERZEE_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_FORSAKEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_THRUMKIN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_SCALEMEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_CACTOID_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MOYO_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MANTIS_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_ASTORIEL_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_DROW_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_NIGHTELF_HYBRID_DEF</li>
+              </kindDefs>
+              <chance>15</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>ZRPF_FACTION_PLAYER_DEF</li>
+          </factionDefs>
+        </li>
+        
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>ZRPF_PLAYER_PAWN_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_HUMAN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_GERZEE_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_FORSAKEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_THRUMKIN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_SCALEMEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_CACTOID_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MOYO_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MANTIS_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_ASTORIEL_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_DROW_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_NIGHTELF_HYBRID_DEF</li>
+              </kindDefs>
+              <chance>6</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerColony</li>
+          </factionDefs>
+        </li>
+        
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>ZRPF_PLAYER_PAWN_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_HUMAN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_GERZEE_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_FORSAKEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_THRUMKIN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_SCALEMEN_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_CACTOID_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MOYO_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_MANTIS_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_ASTORIEL_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_DROW_HYBRID_DEF</li>
+                <li>ZRPF_PLAYER_PAWN_NIGHTELF_HYBRID_DEF</li>
+              </kindDefs>
+              <chance>6</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerTribe</li>
+          </factionDefs>
+        </li>
+      </alienwandererkinds>
+
+    </pawnKindSettings>
+</AlienRace.RaceSettings>
+  
+</Defs>

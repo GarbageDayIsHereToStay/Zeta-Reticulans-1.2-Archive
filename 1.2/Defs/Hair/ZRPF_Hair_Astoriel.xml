@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HairDef>
+    <defName>ZRPF_AstorielWarden</defName>
+    <label>warden</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Warden</texPath>
+    <hairTags>
+      <li>HAIRTAG_ASTORIEL_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_AstorielShaved</defName>
+    <label>shaved</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>HAIRTAG_ASTORIEL_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ZRPF_AstorielTuft</defName>
+    <label>tuft</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Tuft</texPath>
+    <hairTags>
+      <li>HAIRTAG_ASTORIEL_HYBRID</li>
+    </hairTags>
+  </HairDef>
+
+</Defs>
