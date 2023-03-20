@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!--■■■■■■■■■■■■■■■■■■PAWN NAMES■■■■■■■■■■■■■■■■■■■■■■■-->
+  
+  <RulePackDef>
+    <defName>ZRPF_NAMER_DEF</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>zrpfname->Names/ZRPF_Names</li>
+        <li>zrpfnamelast->Names/ZRPF_NamesLast</li>
+      </rulesFiles>
+      <rulesStrings>
+        <li>r_name->[zrpfname] [zrpfnamelast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ZRPF_NAMER_MALE_DEF</defName>
+    <include>
+      <li>ZRPF_NAMER_DEF</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[zrpfname] [zrpfnamelast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ZRPF_NAMER_FEMALE_DEF</defName>
+    <include>
+      <li>ZRPF_NAMER_DEF</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[zrpfname] [zrpfnamelast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<!--■■■■■■■■■■■■■■■■■■FACTION NAMES■■■■■■■■■■■■■■■■■■■■■■■-->
+  
+  <RulePackDef>
+    <defName>ZRPF_FACTION_NAMER_DEF</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>zrpfname->Names/ZRPF_Factions</li>
+      </rulesFiles>
+      <rulesStrings>
+        <li>r_name->[zrpfname]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ZRPF_SETTLEMENT_NAMER_DEF</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>zrpfname->Names/ZRPF_Settlements</li>
+      </rulesFiles>
+      <rulesStrings>
+        <li>r_name->[zrpfname]</li>
+      </rulesStrings>
+   
+    </rulePack>
+  </RulePackDef>
+  
+</Defs>

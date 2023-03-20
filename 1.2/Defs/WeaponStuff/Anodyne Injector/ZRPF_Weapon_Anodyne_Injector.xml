@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■1. ANODYNE INJECTOR WEAPON DEF■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+<ThingDef ParentName="ZRPF_WEAPON_BASE_LOW_DEF">
+    <!--■■■PRESENTATION■■■-->
+    <defName>ZRPF_WEAPON_ANODYNE_INJECTOR_DEF</defName>
+    <label>anodyne injector</label>
+    <description>Used in procument and laboratory control, auto-injectors fire clouds of hypodermic bolts. This particular weapon has internal reservoirs of anesthetic.</description>
+
+    <graphicData>
+      <texPath>Weapons/ZRPF_Anodyne_Injector</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  
+    <soundInteract>Interact_Shotgun</soundInteract> 
+  
+    <!--■■■STATS + VERBS■■■-->
+  
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+  
+    <verbs>
+      <li>
+        <defaultProjectile>ZRPF_PROJECTILE_ANODYNE_INJECTOR_DEF</defaultProjectile>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <warmupTime>1</warmupTime>
+        <range>15.9</range>
+        <soundCast>ZRPF_SOUND_BOLT_DEF</soundCast>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    
+    <!--■■■TAGS + TOOLS■■■-->
+  
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+</ThingDef>
+  
+</Defs>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_ZETA_RETICULAN_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_UI_HIDER_OUTDOORS_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_UI_HIDER_COMFORT_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+      
+    </hediffGivers>
+    
+    
+  </HediffGiverSetDef>
+
+ 
+    <!--■■■■■■■■■■■■■■■■■■ GERZEE ■■■■■■■■■■■■■■■■■■■■■■■-->    
+    <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_GERZEE_HYBRID_DEF</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_GERZEE_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+    </HediffGiverSetDef>
+  
+   <!--■■■■■■■■■■■■■■■■■■ THRUMKIN ■■■■■■■■■■■■■■■■■■■■■■■-->
+    <HediffGiverSetDef>
+      <defName>ZRPF_HEDIFFGIVERS_THRUMKIN_HYBRID_DEF</defName>
+      <hediffGivers>
+        
+        
+        <li Class="HediffGiver_Birthday">
+          <hediff>ZRPF_HEDIFF_THRUMKIN_HYBRID_DEF</hediff>
+          
+          <ageFractionChanceCurve>
+            <points>
+              <li>(0, 1)</li>
+              <li>(1, 1)</li>
+            </points>
+          </ageFractionChanceCurve>
+        </li>
+      </hediffGivers>
+    </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ FORSAKEN ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_FORSAKEN_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_FORSAKEN_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ HUMAN ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_HUMAN_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_HUMAN_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ SCALEMEN ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_SCALEMEN_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_SCALEMEN_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  
+  <!--■■■■■■■■■■■■■■■■■■ CACTOID ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_CACTOID_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_CACTOID_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ MOYO ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_MOYO_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_MOYO_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <!--■■■■■■■■■■■■■■■■■■ MANTIS ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_MANTIS_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_MANTIS_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ ASTORIEL ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_ASTORIEL_HYBRID_DEF</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_ASTORIEL_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_ASTORIEL_AGELESS_DEF</defName>
+    <hediffGivers>
+      
+      <!-- Environmental -->
+      <li Class="HediffGiver_Bleeding">
+        <hediff>BloodLoss</hediff>
+      </li>
+      <li Class="HediffGiver_Hypothermia">
+        <hediff>Hypothermia</hediff>
+      </li>
+      <li Class="HediffGiver_Heat">
+        <hediff>Heatstroke</hediff>
+      </li>
+      
+      
+      <!-- Responsive and special -->
+      <li Class="HediffGiver_BrainInjury">
+        <hediff>TraumaSavant</hediff>
+        <partsToAffect>
+          <li>Brain</li>
+        </partsToAffect>
+        <chancePerDamagePct>0.12</chancePerDamagePct>
+        <letterLabel>Trauma savant</letterLabel>
+        <letter>NAME's brain injury has caused HIM to develop strange savant-like abilities.</letter>
+      </li>
+      
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ DROW ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_DROW_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_DROW_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ NIGHT ELF ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_NIGHTELF_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_NIGHTELF_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  <!--■■■■■■■■■■■■■■■■■■ BLOOD ELF ■■■■■■■■■■■■■■■■■■■■■■■-->
+  <HediffGiverSetDef>
+    <defName>ZRPF_HEDIFFGIVERS_BLOODELF_HYBRID_DEF</defName>
+    <hediffGivers>
+      
+      
+      <li Class="HediffGiver_Birthday">
+        <hediff>ZRPF_HEDIFF_BLOODELF_HYBRID_DEF</hediff>
+        
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  
+</Defs>
+<!--      <li Class="HediffGiver_Refresh">
+        <hediff>ZRPF_HEDIFF_UI_HIDER_OUTDOORS_DEF</hediff>
+      
+        <allowOnLodgers>true</allowOnLodgers>
+        <allowOnQuestRewardPawns>true</allowOnQuestRewardPawns>
+        <canAffectAnyLivePart>true</canAffectAnyLivePart>
+        <countToAffect>1</countToAffect>
+      </li>
+    </hediffGivers> -->

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+ <!--■■■■■■■■■■■■■■■■■
+     BEING A JERK
+  1. Bio-Asset Deconstructed (Pawn) aka "ButcheredHumanlikeCorpse"
+  2. Bio-Asset Deconstructed (Colony) aka "KnowButcheredHumanlikeCorpse"
+  3. Biomaterial Extracted (Guest) aka "KnowGuestOrganHarvested'
+  4. Biomaterial Extracted (Colonist) aka "KnowColonistOrganHarvested"
+  5. Bio-asset Released aka "ReleasedHealthyPrisoner"
+  6  Bio-asset Sold aka "KnowPrisonerSold"
+     ■■■■■■■■■■■■■■■■■-->
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■BEING A JERK■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->   
+  
+<!--■■■1. BIO-ASSET DECONSTRUCTED (PAWN)■■■-->
+<ThoughtDef>
+    <defName>ZRPF_ButcheredHumanlikeCorpse</defName>
+
+    <icon>Motes/Icons/ZRPF_MeatKnowledge</icon>
+    <showBubble>true</showBubble>
+  
+    <durationDays>2</durationDays>
+    <stackLimit>12</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>bio-asset deconstructed</label>
+        <description>A bio-asset's physical attributes have been recorded for use in demographic analysis.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■2. BIO-ASSET DECONSTRUCTED (COLONY)■■■-->
+<ThoughtDef>
+    <defName>ZRPF_KnowButcheredHumanlikeCorpse</defName>
+  
+    <icon>Motes/Icons/ZRPF_MeatKnowledge</icon>
+    <showBubble>true</showBubble>
+  
+    <durationDays>2</durationDays>
+    <stackLimit>12</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>bio-asset deconstructed</label>
+        <description>A bio-asset's physical attributes have been recorded for use in demographic analysis.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+
+<!--■■■3. BIOMATERIAL EXTRACTED (COLONIST)■■■-->
+<ThoughtDef>
+    <defName>ZRPF_KnowColonistOrganHarvested</defName>
+  
+    <icon>Motes/Icons/ZRPF_OrganKnowledge</icon>
+    <showBubble>true</showBubble>
+  
+    <durationDays>2</durationDays>
+    <stackLimit>12</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>biomaterial extracted</label>
+        <description>The co-op harvested material from a live bio-asset. This aids in our research.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■4. BIOMATERIAL EXTRACTED (GUEST)■■■-->
+<ThoughtDef>
+    <defName>ZRPF_KnowGuestOrganHarvested</defName>
+  
+    <icon>Motes/Icons/ZRPF_OrganKnowledge</icon>
+    <showBubble>true</showBubble>
+  
+    <durationDays>2</durationDays>
+    <stackLimit>12</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>biomaterial extracted</label>
+        <description>The co-op harvested material from a live bio-asset. This aids in our research.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+
+<!--■■■5. BIO-ASSET RELEASED■■■-->
+  
+<ThoughtDef>
+    <defName>ZRPF_ReleasedHealthyPrisoner</defName>
+  
+    <icon>Motes/Icons/ZRPF_WastedAssets</icon>
+    <showBubble>true</showBubble>
+  
+    <durationDays>8</durationDays>
+    <stackLimit>12</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>bio-asset released</label>
+        <description>We released an unprocessed bio-asset. What a waste of material.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+
+<!--■■■6. BIO-ASSET SOLD■■■-->
+<ThoughtDef>
+    <defName>ZRPF_KnowPrisonerSold</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>12</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>bio-asset sold</label>
+        <description>A bio-asset has been sold off. The resources gained will serve the co-op in its goals.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+</Defs>

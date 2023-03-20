@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!--■■■■■■■■■■■■■■■■■  
+     MISC
+  1. Composed Thoughts aka "Catharsis"
+  2. Initial Foundation aka "NewColonyOptimism"
+  3. Initial Progress aka "NewColonyHope"
+  4. Work
+  5. Pain
+  6. Clothed Nudist
+  7. Nudist
+  8. Sick
+  9. Soaking Wet
+  10. Work Passion
+     ■■■■■■■■■■■■■■■■■--> 
+  
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■MISC■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+<!--■■■1. CATHARSIS ■■■-->
+<ThoughtDef>
+    <defName>ZRPF_Catharsis</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>composed thoughts</label>
+        <description>I have organized my thoughts and I am eager to get back to my work.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+
+<!--■■■2. INITIAL FOUNDATION ■■■-->
+<ThoughtDef>
+    <defName>ZRPF_NewColonyOptimism</defName>
+    <durationDays>6</durationDays>
+    <nextThought>ZRPF_NewColonyHope</nextThought>
+    <stages>
+      <li>
+        <label>initial foundation</label>
+        <description>I am motivated to establish a facility and begin data collection.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■3. INITIAL PROGRESS ■■■-->
+<ThoughtDef>
+    <defName>ZRPF_NewColonyHope</defName>
+    <durationDays>8</durationDays>
+    <stages>
+      <li>
+        <label>initial progress</label>
+        <description>The co-op seems to be progressing on schedule.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■4. WORK ■■■-->
+<ThoughtDef>
+    <defName>ZR_FreedFromSlavery</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>1</stackLimit>
+    <nextThought>ZRPF_NewColonyHope</nextThought>
+    <stages>
+      <li>
+        <label>recently leased</label>
+        <description>I get to contribute to a new project.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+
+<!--■■■5. PAIN ■■■-->
+<ThoughtDef>
+    <defName>ZRPF_Pain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>negligible pain</label>
+        <description>The pain is negligible.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>minor pain</label>
+        <description>This pain is starting to interfere with my thought process.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>serious pain</label>
+        <description>I need to seek treatment immediately and stop this distraction.</description>
+        <baseMoodEffect>-9</baseMoodEffect>
+      </li>
+      <li>
+        <label>mind-shattering pain</label>
+        <description>Without pain. without sacrifice.. we would have.. nothing...</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■6. CLOTHED NUDIST ■■■--> 
+<ThoughtDef>
+    <defName>ZRPF_ClothedNudist</defName>
+    <workerClass>ThoughtWorker_NudistNude</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <invert>true</invert>
+    <requiredTraits>
+      <li>Nudist</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>constraining clothes</label>
+        <description>These drapings attract unhygienic stains and hinder the fluidity of my action.
+        \nI should seek the smooth uniformity of nudity.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■7. NUDIST ■■■--> 
+<ThoughtDef>
+    <defName>ZRPF_HappyNude</defName>
+    <workerClass>ThoughtWorker_NudistNude</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>Nudist</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>unrestricted nude</label>
+        <description>No material to snag, a lowered drag rate which saves me valuable micro seconds on every movement, and an easy to clean surface.
+        \nMy nakedness is efficiency in it's rawest state.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+<!--■■■8. SICK ■■■--> 
+<ThoughtDef>
+    <defName>ZRPF_Sick</defName>
+    <workerClass>ThoughtWorker_Sick</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>sick</label>
+        <description>I've have stopped feeling healthy. Not feeling well contravenes co-op procedure and reflects poorly on me.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+  
+  <!--■■■9. SOAKING WET ■■■--> 
+<ThoughtDef>
+    <defName>ZRPF_SoakingWet</defName>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>soaking wet</label>
+        <description>I am soaking wet; thats several degrees more wetness then advised.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+   
+<!--■■■10. WORK PASSION ■■■-->
+<ThoughtDef>
+    <defName>ZRPF_DoingPassionateWork</defName>
+    <workerClass>ThoughtWorker_PassionateWork</workerClass>
+    <stages>
+      <li>
+        <label>minor passion for my work</label>
+        <description>Work brings meaning and i'm productive in this field.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>burning passion for my work</label>
+        <description>This is my field of expertise. I feel like i'm working at peak efficiency.</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+</ThoughtDef>
+  
+</Defs>

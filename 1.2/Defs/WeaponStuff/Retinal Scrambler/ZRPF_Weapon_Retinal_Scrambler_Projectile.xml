@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ PROJECTILE DEF■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+<ThingDef ParentName="BaseBullet">
+    <defName>ZRPF_PROJECTILE_RETINALSCRAMBLER_DEF</defName>
+    
+    <label>scrambler beam</label>
+    <graphicData>
+      <texPath>Projectiles/ZRPF_Projectile_Retinal_Scrambler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+  
+    <projectile>
+      <damageDef>ZRPF_DAMAGE_RETINALSCRAMBLER_DEF</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <stoppingPower>0.2</stoppingPower>
+      <speed>80</speed>
+    </projectile>
+</ThingDef>
+
+</Defs>

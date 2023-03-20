@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ PROJECTILE DEF■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+<ThingDef ParentName="BaseBullet">
+  <defName>ZRPF_PROJECTILE_ANODYNE_INJECTOR_DEF</defName>
+  
+    <label>hypodermic bolt</label>
+    <graphicData>
+      <texPath>Projectiles/ZRPF_Projectile_Anodyne_Injector</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+  
+    <projectile>
+      <damageDef>ZRPF_DAMAGE_ANODYNE_INJECTOR_DEF</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <stoppingPower>0.1</stoppingPower>
+      <speed>65</speed>
+    </projectile>
+</ThingDef>
+
+</Defs>

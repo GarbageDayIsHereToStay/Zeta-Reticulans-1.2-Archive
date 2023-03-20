@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ GEL APPLICATOR DAMAGE DEF■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+    <!--■■■A) EXPLOSION DAMAGE■■■--> 
+<DamageDef Name="ZRPF_CONTROL_GEL_EXPLOSION_DAMAGE_BASE">
+    <defName>ZRPF_DAMAGE_EXPLOSION_CONTROL_GEL_DEF</defName>
+    <label>control gel</label>
+    
+    <workerClass>NoCamShakeExplosions.DamageWorker_BombNoCamShake</workerClass>
+    
+    <isExplosive>true</isExplosive>
+    <hediff>ChemicalBurn</hediff>
+    <hediffSkin>ChemicalBurn</hediffSkin>
+    <hediffSolid>ChemicalBurn</hediffSolid>
+    <additionalHediffs>
+      <li>
+        <hediff>ZRPF_HEDIFF_CONTROL_GEL_DEF</hediff>
+        <severityPerDamageDealt>0.339</severityPerDamageDealt>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    
+    <defaultDamage>1</defaultDamage>
+    <armorCategory>Heat</armorCategory>
+    <harmsHealth>false</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <externalViolence>true</externalViolence>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <impactSoundType>Blunt</impactSoundType>
+    
+    <defaultStoppingPower>8</defaultStoppingPower>
+    <defaultArmorPenetration>0.10</defaultArmorPenetration>
+    <buildingDamageFactor>0.05</buildingDamageFactor>
+    <plantDamageFactor>200</plantDamageFactor>
+    <minDamageToFragment>20</minDamageToFragment>
+    
+    <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(22,22,22)</explosionColorCenter>
+    <explosionColorEdge>(32,32,32)</explosionColorEdge>
+    <soundExplosion>DispensePaste</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
+    
+    <deathMessage>{0} has died from chemical burn.</deathMessage>
+    
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+</DamageDef>    
+  
+    <!--■■■B) MELEE DAMAGE■■■--> 
+<DamageDef Name="ZRPF_GEL_MELEE_DAMAGE_BASE">
+    <defName>ZRPF_DAMAGE_MELEE_CONTROL_GEL_DEF</defName>
+    <label>gel punch</label>
+    
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    
+    <hediff>Crush</hediff>
+    <hediffSkin>Cut</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <additionalHediffs>
+      <li>
+        <hediff>ZRPF_HEDIFF_CONTROL_GEL_DEF</hediff>
+        <severityPerDamageDealt>0.025</severityPerDamageDealt>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    
+    <defaultDamage>2</defaultDamage>
+    <armorCategory>Blunt</armorCategory>
+    <harmsHealth>true</harmsHealth>
+    <makesBlood>true</makesBlood>
+    <externalViolence>true</externalViolence>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    
+    <deathMessage>{0} has died from a gel weapon.</deathMessage>
+    
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+</DamageDef>   
+    
+</Defs>

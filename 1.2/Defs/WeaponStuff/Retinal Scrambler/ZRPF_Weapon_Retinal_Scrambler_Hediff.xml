@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ HEDIFF ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->   
+ 
+<HediffDef>
+    <defName>ZRPF_HEDIFF_RETINALSCRAMBLE_DEF</defName>
+    <label>blind</label>
+    <labelNoun>blindness</labelNoun>
+    <description>blinded</description>
+    <battleStateLabel>retinal overload</battleStateLabel>
+  
+    <hediffClass>HediffWithComps</hediffClass>
+
+    <maxSeverity>1</maxSeverity>
+  
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.010</healAmount>
+      </li>
+    </comps>
+  
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.0125</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Disintegrated</destroyedLabel>
+      <destroyedOutLabel>Disintegrated</destroyedOutLabel>
+    </injuryProps>
+    
+<!--■■■■■■■■■■■■■■■■■■STAGES■■■■■■■■■■■■■■■■■■■■■■■-->
+    <stages>
+      <li>
+        <label>initial</label> <!--■■■INITIAL (1)■■■-->
+        <minSeverity>0.075</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.075</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>initial</label> <!--■■■INITIAL (2)■■■-->
+        <minSeverity>0.15</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label> <!--■■■MINOR (3)■■■-->
+        <minSeverity>0.225</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.225</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label> <!--■■■MINOR (4)■■■-->
+        <minSeverity>0.3</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+      </li> <li>
+        <label>moderate</label> <!--■■■MODERATE (5)■■■-->
+        <minSeverity>0.375</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.375</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label> <!--■■■MODERATE (6)■■■-->
+        <minSeverity>0.45</minSeverity>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.45</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label> <!--■■■MODERATE (7)■■■-->
+        <minSeverity>0.525</minSeverity>
+        <capMods>
+          
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.525</offset>
+          </li>
+        </capMods>
+      </li>
+      <li> 
+        <label>serious</label> <!--■■■SERIOUS (8)■■■-->
+        <minSeverity>0.6</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.6</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label> <!--■■■SERIOUS (9)■■■-->
+        <minSeverity>0.675</minSeverity>
+        <vomitMtbDays>3</vomitMtbDays>
+        <capMods>
+           <li>
+            <capacity>Sight</capacity>
+            <offset>-0.675</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label> <!--■■■SERIOUS (10)■■■-->
+        <minSeverity>0.75</minSeverity>
+        <vomitMtbDays>2</vomitMtbDays>
+        <capMods>
+         <li>
+            <capacity>Sight</capacity>
+            <offset>-0.75</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label> <!--■■■EXTREME (11)■■■-->
+        <minSeverity>0.825</minSeverity>
+        <vomitMtbDays>1.25</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.825</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label> <!--■■■EXTREME (12)■■■-->
+        <minSeverity>0.9</minSeverity>
+        <vomitMtbDays>0.75</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.9</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label> <!--■■■EXTREME (13)■■■-->  
+        <minSeverity>0.95</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.99</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+</HediffDef>
+  
+  
+</Defs>

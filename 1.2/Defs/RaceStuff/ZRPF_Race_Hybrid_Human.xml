@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+  <defName>ZRPF_RACE_HUMAN_HYBRID_DEF</defName>
+  <label>Human Hybrid</label>
+  <description>Physically weak, extremely intelligent, nearly emotionless: Zeta Reticulans value knowledge above all.
+    
+Threads of the Zetan Assembly puncture their way through populated systems without entente. Facilities are secreted away inside the asteroid fields of busy star systems, under deep midworld waters, and inside caverns gouged below the densest glitterword grandopolis; they nestle among jagged outcroppings moated by salt barrens, in wind tunneled desert mesas where thirst keeps locals away, labs are sunk into glacial ice to better preserve samples, and roosted in hollowed mountain peaks.
+
+Reticulan society is conducted according to a brand of ultra utilitarism that can be broken down into two general "advisories":
+    
+  1) The meaning of consciousness is to process the data of existence. 
+  2) All life exists to be fully spent in this pursuit.
+    
+Precepts which have lead to them becoming a unique hazard to other forms of bio-intelligence. 
+    
+Their presence creates tribal fiats of forbidden zones and cursed lands. Those primitives create tales of charnel demons to rationalize their presence, ghouls, werewolves, and conjure thoughts of dark gods to stalk the night in explanation. 
+    
+The sophisticated tally lists of their missing, create cold cases, and broadcast tales of organized killers and predatory madmen.
+     
+Gene knowledge, epi-grafts, bio-mechanical trialing, and long running hybridization programs have long been the primary focus of Reticulan scientific effort. Pathways into the highest tiers of robotics research have been waylaid by orthodox related to their governing "Advisories", namely the rejection of nonorganic consciousness as true consciousness; a more general fear of developing combative AI, and the Zeta's possession of a naturally evolved psy-limbic system which makes handling organics the path of least resistance.
+    
+Work co-ops set up cloak and scalpel procurement outposts and forward operating tissue-wats to harvest the local selection of bio-assets -intelligent life- for raw components. Samples collected by these worker co-ops are recovered from across the Assembly's broad operating zones by autonomous fleets of rebate drones on behalf of the Zetan science directorate to be cataloged and distributed to the most promising and productive projects. 
+    
+The dispersed structure of their shadow empire is countered by the complete centralization of all administrative power and extreme levels of bureaucratic redundancy in order to prevent divergence. Resource intake, accountancy, allowance distribution are all controlled by separate directorates barred from cross communicating without the use of monitored intermediaries. Reticulans considered is an unavoidable inefficiency of empire.
+    
+The Assembly's void shipping sticks almost exclusively to pre-programmed routes, each controlled by a separate transport association. All vessels are crewed by at least one representative on work-loan from the central assembly who monitors this "zero deviation" protocol at the association's expense. Crew on these ships have no actual control over the course of the ship as there's a complete lack of any input controls at all, but will instead ride along as porters and living ledgers, possibly serving hundreds of years before age related decline causes their replacement or the vessal is otherwise lost in service.
+    
+Paradoxically even basic knowledge and scientific resources are partitioned by specialized science brokerages to prevent accumulation by individual actors. It's also hypothesized that redundant development may lead to unique breakthroughs. 
+    
+Co-ops are kept in the dark of one another activities and those operating within bounds of one another are expected to compete ferociously, even bloodily, to encourage pressure-based tech development and as a regulatory function designed to keep independent research conglomerates from forming.
+    
+Those co-ops who have proven themselves most productive may exchange the silver tokens rewarded to them by visiting rebate drones for aid from any Canteen Saucer that enters their service area.
+    
+This system has been maintained for several millennium and has yet to falter to either outside threat or internal upheaval.</description>
+    
+<!--■■■■■■■■■■■■■■■■■■STAT BASES■■■■■■■■■■■■■■■■■■■■■■■-->
+    <statBases>
+      <MarketValue>4000</MarketValue>
+      <Flammability>1.0</Flammability>
+      <MoveSpeed>4.3</MoveSpeed> <!--Docked as part of animal into > pawn balance (Zetas 4)(Slime 2)(Human 4.6)-->
+      
+      <ComfyTemperatureMin>6</ComfyTemperatureMin> <!--(Zetas -5)(Human +16) -5 + (1/2 < = 11)-->
+      <ComfyTemperatureMax>18</ComfyTemperatureMax> <!--(Zetas 10)(Human +26) 10 + (1/2 < = 8)-->
+      <Mass>55</Mass> <!--(Zetas 45)(Human +70)-->
+    
+      <PainShockThreshold>0.875</PainShockThreshold>  <!--(0.95 Zetas)(Human 0.80)-->
+      <ImmunityGainSpeed>0.925</ImmunityGainSpeed> <!--(0.85 Zetas)(Human 1)-->
+      <ZRPF_STAT_SCALENE_SUSCEPTIBILITY_DEF>0.6</ZRPF_STAT_SCALENE_SUSCEPTIBILITY_DEF> <!--(0.2 Zetas)-->
+      
+      <ConstructionSpeed>0.9</ConstructionSpeed>  <!--(0.8 Zetas)(Human 1)-->
+      <ConstructSuccessChance>1.1</ConstructSuccessChance>  <!--(1.2 Zetas)(Human 1)-->
+      <EatingSpeed>0.8</EatingSpeed>  <!--(0.6 Zetas)(Human 1)-->
+      <MiningSpeed>0.8</MiningSpeed>  <!--(0.6 Zetas)(Human 1)-->
+      <PlantWorkSpeed>0.9</PlantWorkSpeed> <!--(0.8 Zetas)(Human 1)-->
+      
+      <ResearchSpeed>1.1</ResearchSpeed> <!--(Hybrid Base 1.1)(1.5 Zetas)(Human 1)-->
+      <GlobalLearningFactor>1.2</GlobalLearningFactor> <!--(Hybrid Base 1.2)(1.5 Zetas)(Human 1)-->
+      
+      <MedicalTendSpeed>1</MedicalTendSpeed>
+      <MedicalTendQuality>1.1</MedicalTendQuality> <!--(1.2 Zetas)(Human 1)-->
+      <MedicalOperationSpeed>1</MedicalOperationSpeed>
+      <MedicalSurgerySuccessChance>1.1</MedicalSurgerySuccessChance> <!--(1.2 Zetas)(Human 1)-->
+      
+      <TameAnimalChance>0.7</TameAnimalChance> <!--(0.4 Zetas)(Human 1)-->
+      <TrainAnimalChance>0.7</TrainAnimalChance> <!--(0.4 Zetas)(Human 1)-->
+      
+      <LeatherAmount>35</LeatherAmount>
+
+      <PsychicSensitivity>1.1</PsychicSensitivity> <!--(1.2 Zetas)(Human 1)-->
+      <RoyalFavorValue>5</RoyalFavorValue>
+    </statBases>
+    
+<!--■■■■■■■■■■■■■■■■■■CORPUS■■■■■■■■■■■■■■■■■■■■■■■-->
+    <race>
+      <nameGenerator>ZRPF_NAMER_DEF</nameGenerator>
+      <nameGeneratorFemale>ZRPF_NAMER_FEMALE_DEF</nameGeneratorFemale>
+      <hasGenders>true</hasGenders>
+      <thinkTreeMain>ZRPF_ZETA_RETICULAN_THINK_TREE_DEF</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>140</lifeExpectancy> <!--(Zetas 300)(Human 80)-->
+      
+      <body>ZRPF_BODY_DEF</body>
+      <bloodDef>ZRPF_BLOOD_HUMAN_DEF</bloodDef>
+      <leatherDef>ZRPF_LEATHER_DEF</leatherDef>
+      <fleshType>ZRPF_FLESH_HUMAN_DEF</fleshType>
+      <baseBodySize>0.88</baseBodySize>  <!--((0.76 Zetas)(Human 1)-->
+      <baseHealthScale>0.88</baseHealthScale>   <!--(0.76 Zetas)(Human 1)-->     
+      <baseHungerRate>0.7</baseHungerRate> <!--(0.4 Zetas)(Human 1)-->     
+      
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>50</gestationPeriodDays> <!--(50 Zetas)(Human 45)-->
+      <meatMarketValue>1.2</meatMarketValue>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance> <!-- All zeta -->
+      <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance> <!-- All zeta -->
+      
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>0.75</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>1</minAge>
+        </li>
+      </lifeStageAges>
+      
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+        
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      
+      <ageGenerationCurve>
+        <points>
+          <li>(1,0)</li>
+          <li>(4,1)</li>
+          <li>(15,30)</li>
+          <li>(15,60)</li>
+          <li>(30,100)</li>
+          <li>(50,200)</li>
+          <li>(100,40)</li>
+          <li>(139,1)</li>
+          <li>(140,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+        <li>ZRPF_HEDIFFGIVERS_ZETA_RETICULAN_DEF</li>
+        <li>ZRPF_HEDIFFGIVERS_HUMAN_HYBRID_DEF</li>
+      </hediffGiverSets>
+    </race>
+  
+<!--■■■■■■■■■■■■■■■■■■PERSENTATION + GENERAL SETTING■■■■■■■■■■■■■■■■■■■■■■■-->
+    <alienRace>
+      <graphicPaths>
+        <li>
+          <head>Heads/Reticulan/</head>
+        </li>
+      </graphicPaths>
+      
+      <hairSettings>
+        <hairTags>
+          <li>HAIRTAG_HUMAN_HYBRID</li>
+        </hairTags>
+      </hairSettings>
+    
+      <generalSettings>	
+        <immuneToAge>false</immuneToAge>
+        
+        <maxDamageForSocialfight>4</maxDamageForSocialfight>
+        <maleGenderProbability>0.5</maleGenderProbability>
+        <allowHumanBios>false</allowHumanBios>
+        <humanRecipeImport>true</humanRecipeImport>
+        
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
+          <customPortraitHeadDrawSize>( 0.95, 0.95)</customPortraitHeadDrawSize>
+          <headOffset>(-0.03, -0.08)</headOffset>
+          
+          <alienbodytypes>
+            <li>Thin</li>
+          </alienbodytypes>
+          <customDrawSize>(0.95, 0.95)</customDrawSize>
+          <customPortraitDrawSize>( 0.95, 0.95)</customPortraitDrawSize>
+          
+          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+    
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(243,210,181)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(214,199,185)</only>
+                  </li>
+                  <li>
+                    <weight>2</weight>
+                    <only>RGBA(126,93,82)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(109,86,78)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(133,112,92)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(36,36,36)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(57,57,57)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(147,147,147)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(176,176,176)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(231,231,231)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          
+          <bodyAddons>
+            <!--■■■ LEFT EYE ■■■-->
+          <li> 
+            <path>Eyes/ZetaLeft/EyeLeft</path> <!-- Your left -->
+            <shaderType>Transparent</shaderType>
+            <bodyPart>left eye</bodyPart>
+            <drawSize>1.0</drawSize>
+            <inFrontOfBody>true</inFrontOfBody>
+            <layerOffset>-.2707</layerOffset>
+            <hediffGraphics> <!-- Pawns left -->
+              <MissingBodyPart>Eyes/ZetaLeft/Missing/EyeLeftMissing</MissingBodyPart>
+              <Stab>Eyes/ZetaLeft/Slices/EyeLeftSlice</Stab>
+              <Cut>Eyes/ZetaLeft/Slices/EyeLeftSlice</Cut>
+              <SurgicalCut>Eyes/ZetaLeft/Slices/EyeLeftSlice</SurgicalCut>
+              <Scratch>Eyes/ZetaLeft/Slices/EyeLeftSlice</Scratch>
+              <Crush>Eyes/ZetaLeft/Crush/EyeLeftCrush</Crush>
+              <Bruise>Eyes/ZetaLeft/Bruise/EyeLeftBruise</Bruise>
+              <Gunshot>Eyes/ZetaLeft/Crush/EyeLeftCrush</Gunshot>
+              <SmokeleafHigh>Eyes/ZetaLeft/Ayy/EyeLeftAyy</SmokeleafHigh>
+              <YayoHigh>Eyes/ZetaLeft/Wake/EyeLeftWake</YayoHigh>
+              <WakeUpHigh>Eyes/ZetaLeft/Wake/EyeLeftWake</WakeUpHigh>
+              <FlakeHigh>Eyes/ZetaLeft/Wake/EyeLeftWake</FlakeHigh>
+              <PsychiteTeaHigh>Eyes/ZetaLeft/Wake/EyeLeftWake</PsychiteTeaHigh>
+              <GoJuiceHigh>Eyes/ZetaLeft/Wake/EyeLeftWake</GoJuiceHigh>
+              <AlcoholHigh>Eyes/ZetaLeft/Drunk/EyeLeftDrunk</AlcoholHigh>
+            </hediffGraphics>
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Thin>(-0.421,0.4827)</Thin>
+                </bodyTypes>
+                <crownTypes />
+              </south>
+              <north>
+                <bodyTypes>
+                  <Thin>(0, 0)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Thin>(-0.6999,0.4999)</Thin>
+                </bodyTypes>
+                <crownTypes />
+              </east>
+              <west>
+                <bodyTypes>
+                  <Thin>(0, 0)</Thin>
+                </bodyTypes>
+              </west>
+            </offsets>
+            
+            <hiddenUnderApparelFor />
+          </li>
+          
+            <!--■■■ RIGHT EYE ■■■-->
+         <li>
+            <path>Eyes/ZetaRight/EyeRight</path>
+            <shaderType>Transparent</shaderType>
+            <bodyPart>right eye</bodyPart>
+            <drawSize>1</drawSize>
+            <inFrontOfBody>true</inFrontOfBody>
+            <layerOffset>-.2707</layerOffset>
+           <hediffGraphics>
+             <MissingBodyPart>Eyes/ZetaRight/Missing/EyeRightMissing</MissingBodyPart>
+             <Stab>Eyes/ZetaRight/Slices/EyeRightSlice</Stab>
+             <Cut>Eyes/ZetaRight/Slices/EyeRightSlice</Cut>
+             <SurgicalCut>Eyes/ZetaRight/Slices/EyeRightSlice</SurgicalCut>
+             <Scratch>Eyes/ZetaRight/Slices/EyeRightSlice</Scratch>
+             <Crush>Eyes/ZetaRight/Crush/EyeRightCrush</Crush>
+             <Bruise>Eyes/ZetaRight/Bruise/EyeRightBruise</Bruise>
+             <Gunshot>Eyes/ZetaRight/Crush/EyeRightCrush</Gunshot>
+             <SmokeleafHigh>Eyes/ZetaRight/Ayy/EyeRightAyy</SmokeleafHigh>
+             <YayoHigh>Eyes/ZetaRight/Wake/EyeRightWake</YayoHigh>
+             <WakeUpHigh>Eyes/ZetaRight/Wake/EyeRightWake</WakeUpHigh>
+             <FlakeHigh>Eyes/ZetaRight/Wake/EyeRightWake</FlakeHigh>
+             <PsychiteTeaHigh>Eyes/ZetaRight/Wake/EyeRightWake</PsychiteTeaHigh>
+             <GoJuiceHigh>Eyes/ZetaRight/Wake/EyeRightWake</GoJuiceHigh>
+             <AlcoholHigh>Eyes/ZetaRight/Drunk/EyeRightDrunk</AlcoholHigh>
+           </hediffGraphics>
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Thin>(-0.4157074,0.4827)</Thin>
+                </bodyTypes>
+                <crownTypes />
+              </south>
+              <north>
+                <bodyTypes>
+                  <Thin>(0, 0)</Thin>
+                </bodyTypes>
+              </north>
+              <west>
+                <bodyTypes>
+                  <Thin>(-0.6999,0.4999)</Thin>
+                </bodyTypes>
+                <crownTypes />
+              </west>
+              <east>
+                <bodyTypes>
+                  <Thin>(0, 0)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+            <hiddenUnderApparelFor />
+          </li>
+          </bodyAddons>
+          
+        </alienPartGenerator>
+    
+<!--■■■■■■■■■■■■■■■■■■TRAITS■■■■■■■■■■■■■■■■■■■■■■■-->
+
+    <disallowedTraits>
+      <!--■A■-->
+      <li><defName>Abrasive</defName></li>
+      <li><defName>AnnoyingVoice</defName></li>
+      <li><defName>Ascetic</defName></li>
+      <li><defName>Asexual</defName></li>   
+      <!--■B■-->
+      <li><defName>Brawler</defName></li>
+      <li><defName>Beauty</defName></li>
+      <li><defName>Bisexual</defName></li>
+      <li><defName>Bloodlust</defName></li>
+      <li><defName>BodyPurist</defName></li>
+      <!--■C■-->
+      <li><defName>Cannibal</defName></li>
+      <!--■D■-->
+      <li><defName>DislikesMen</defName></li> 
+      <li><defName>DislikesWomen</defName></li>
+      <li><defName>DrugDesire</defName></li>
+      <!--■G■-->
+      <li><defName>Gay</defName></li>
+      <li><defName>Gourmand</defName></li>
+      <li><defName>Greedy</defName></li>
+      <!--■I■-->
+     <li>
+        <defName>Industriousness</defName>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>-1</degree>
+      </li>  
+      <!--■J■-->
+      <li><defName>Jealous</defName></li>
+      <!--■K■-->
+      <li><defName>Kind</defName></li>
+      <!--■M■-->
+      <li><defName>Masochist</defName></li>
+      <!--■N■-->
+      <li><defName>NaturalMood</defName></li>  
+      <li>     
+        <defName>Nerves</defName>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <defName>Nerves</defName>
+        <degree>-1</degree>
+      </li>  
+      <li><defName>Neurotic</defName></li> 
+      <li><defName>NightOwl</defName></li>
+      <!--■P■-->
+      <li><defName>Psychopath</defName></li>
+      <li><defName>Pyromaniac</defName></li>
+      <!--■S■-->
+      <li><defName>SlowLearner</defName></li>
+      <li><defName>Undergrounder</defName></li>
+      <!--■T■-->
+      <li><defName>Tough</defName></li>
+      <li><defName>TorturedArtist</defName></li>
+      <li><defName>Transhumanist</defName></li>
+      <!--■W■-->
+      <li><defName>Wimp</defName></li>
+      <!--■X■-->
+      <li><defName>Xenophobia</defName></li>  
+      <!--■ ALTERED CARBON ■-->
+      <li MayRequire="Hlx.RimworldAlteredCarbon"><defName>AC_AntiStack</defName></li>
+      <li MayRequire="Hlx.RimworldAlteredCarbon"><defName>AC_Sleever</defName></li>
+    </disallowedTraits>
+  </generalSettings>
+      
+<!--■■■■■■■■■■■■■■■■■■THOUGHTS SETTINGS■■■■■■■■■■■■■■■■■■■■■■■-->
+  <thoughtSettings>
+    <!--<butcherThoughtGeneral>
+      <raceList><li>ZRPF_RACE_DEF</li></raceList>
+      <thought>ZR_WasImprisoned</thought>
+      <knowThought>ZR_WasImprisoned</knowThought>
+    </butcherThoughtGeneral>-->
+    
+    <replacerList>
+      <!--■A■-->
+      <li>
+        <original>AteCorpse</original>
+        <replacer>ZRPF_AteCorpse</replacer>  
+      </li>
+      <li>
+        <original>AteKibble</original>
+        <replacer>ZRPF_AteKibble</replacer> 
+      </li>
+      <li>
+        <original>AteRawFood</original>
+        <replacer>ZRPF_AteRawFood</replacer> 
+      </li>
+      <li>
+        <original>AteRottenFood</original>
+        <replacer>ZRPF_AteRottenFood</replacer> 
+      </li>
+      <li>
+        <original>AttendedParty</original>
+        <replacer>ZRPF_AttendedParty</replacer>  
+      </li>
+      <li>
+        <original>Aurora</original>
+        <replacer>ZRPF_Aurora</replacer>  
+      </li>
+      <!--■B■-->
+      <li>
+        <original>ButcheredHumanlikeCorpse</original>
+        <replacer>ZRPF_ButcheredHumanlikeCorpse</replacer> 
+      </li>
+      <!--■C■-->
+      <li>
+        <original>CrashedTogether</original>
+        <replacer>ZRPF_CrashedTogether</replacer> 
+      </li>
+      <!--■F■-->
+      <li>
+        <original>FreedFromSlavery</original>
+        <replacer>ZR_FreedFromSlavery</replacer> 
+      </li>
+      <!--■K■-->
+      <li>
+        <original>KnowColonistOrganHarvested</original>
+        <replacer>ZRPF_KnowColonistOrganHarvested</replacer> 
+      </li>
+      <li>
+        <original>KnowGuestOrganHarvested</original>
+        <replacer>ZRPF_KnowGuestOrganHarvested</replacer> 
+      </li>
+      <li>
+        <original>KnowPrisonerSold</original>
+        <replacer>ZRPF_KnowPrisonerSold</replacer> 
+      </li>
+      <li>
+        <original>ReleasedHealthyPrisoner</original>
+        <replacer>ZRPF_ReleasedHealthyPrisoner</replacer> 
+      </li>
+      <li>
+        <original>KnowButcheredHumanlikeCorpse</original>
+        <replacer>ZRPF_KnowButcheredHumanlikeCorpse</replacer> 
+      </li>
+      <!--■N■-->
+      <li>
+        <original>NewColonyOptimism</original>
+        <replacer>ZRPF_NewColonyOptimism</replacer> 
+      </li>
+      <li>
+        <original>NewColonyHope</original>
+        <replacer>ZRPF_NewColonyHope</replacer> 
+      </li>
+      <li>
+        <original>SoakingWet</original>
+        <replacer>ZRPF_SoakingWet</replacer> 
+      </li>
+      <li>
+        <original>SleptInCold</original>
+        <replacer>ZRPF_SleptInCold</replacer> 
+      </li>
+      <li>
+        <original>SleptInHeat</original>
+        <replacer>ZRPF_SleptInHeat</replacer> 
+      </li>
+      <li>
+        <original>SleptOutside</original>
+        <replacer>ZRPF_SleptOutside</replacer> 
+      </li> 
+      <li>  
+        <original>SleptInBedroom</original>
+        <replacer>ZRPF_SleptInBedroom</replacer>  
+      </li>
+      <li>
+        <original>SleptInBarracks</original>
+        <replacer>ZRPF_SleptInBarracks</replacer>  
+      </li>
+      <li>
+        <original>SleepDisturbed</original>
+        <replacer>ZRPF_SleepDisturbed</replacer>  
+      </li>
+      <li>
+        <original>ColonistLost</original>
+        <replacer>ZRPF_ColonistLost</replacer>  
+      </li>
+      <li>
+        <original>KnowColonistDied</original>
+        <replacer>ZRPF_KnowColonistDied</replacer>  
+      </li>
+      <li>
+        <original>SleptOnGround</original>
+        <replacer>ZRPF_SleptOnGround</replacer>  
+      </li>
+      <!--<li>
+        <original>KilledHumanlikeBloodlust</original>
+        <replacer>ZRPF_KilledHumanlikeBloodlust</replacer>  
+      </li>-->
+      <li>
+        <original>Catharsis</original>
+        <replacer>ZRPF_Catharsis</replacer>  
+      </li>
+
+      <!--■DUB'S BAD HYGIENE■-->
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>ColdBath</original>
+        <replacer>ZRPF_ColdBath</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>ColdShower</original>
+        <replacer>ZRPF_ColdShower</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>DrankDirtyWater</original>
+        <replacer>ZRPF_DrankDirtyWater</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>DrankUrine</original>
+        <replacer>ZRPF_DrankUrine</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>HotBath</original>
+        <replacer>ZRPF_HotBath</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>HotShower</original>
+        <replacer>ZRPF_HotShower</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>openDefecation</original>
+        <replacer>ZRPF_openDefecation</replacer>  
+      </li>
+      <li MayRequire="Dubwise.DubsBadHygiene">
+        <original>SoiledSelf</original>
+        <replacer>ZRPF_SoiledSelf</replacer>  
+      </li>
+      <!--■HARVEST ORGANS POST MORTEM■-->
+      <li MayRequire="Smuffle.HarvestOrgansPostMortem">
+        <original>HarvestedHumanlikeCorpse</original>
+        <replacer>ZRPF_HarvestedHumanlikeCorpse</replacer>  
+      </li>
+      <li MayRequire="Smuffle.HarvestOrgansPostMortem">
+        <original>KnowHarvestedHumanlikeCorpse</original>
+        <replacer>ZRPF_KnowHarvestedHumanlikeCorpse</replacer>  
+      </li>
+  
+    </replacerList>
+    
+    <restrictedThoughts> 
+      <!--■A■-->
+      <li>ZRPF_AteAwfulMeal</li>
+      <li>ZRPF_AteHumanlikeMeatDirect</li>
+      <li>ZRPF_AteKibble</li>
+      <li>ZRPF_AteInsectMeatDirect</li>
+      <li>ZRPF_Aurora</li>
+      <!--■D■-->
+      <li>ZRPF_DoingPassionateWork</li>
+      <!--■E■-->
+      <li>ZRPF_EnvironmentCold</li>
+      <li>ZRPF_EnvironmentDark</li>
+      <li>ZRPF_EnvironmentHot</li>
+      <!--■H■-->
+      <li>ZRPF_HospitalPatientRoomStats</li>
+      <!--■M■-->
+      <!--■N■-->
+      <li>ZRPF_ClothedNudist</li>
+      <li>ZRPF_HappyNude</li>
+      <li>ZRPF_NeedBeauty</li>
+      <li>ZRPF_NeedFood</li>
+      <li>ZRPF_NeedRest</li>
+      <!--■P■-->
+      <li>ZRPF_Pain</li>
+      <li>ZRPF_PsychicEmanatorSoothe</li>
+      <li>ZRPF_PsychicDrone</li>
+      <!--■S■-->
+      <li>ZRPF_Sick</li>
+      <!--■ DRUGS, CORE ■-->
+      <li>ZRPF_SmokeleafHigh</li>
+      <li>ZRPF_Inebriated</li>
+      <li>ZRPF_GoJuiceHigh</li>
+      <li>ZRPF_FlakeHigh</li>
+      <li>ZRPF_PsychiteTeaHigh</li>
+      <li>ZRPF_YayoHigh</li>
+      <li>ZRPF_WakeUpHigh</li>
+      <!--■ IMPLANTS, CORE ■-->
+      <li>ZRPF_Joywire</li>
+      <!--■DUB'S BAD HYGIENE■-->
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_BowelLevel</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_ColdBath</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_ColdShower</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_DrankDirtyWater</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_DrankUrine</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_HotBath</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_HotShower</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_HygieneLevel</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_openDefecation</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ZRPF_SoiledSelf</li>
+      <!--■PAWN MORPHER■-->
+      <li MayRequire="tachyonite.pawnmorpherpublic">ZRPF_FurryNoMutations</li>
+      <li MayRequire="tachyonite.pawnmorpherpublic">ZRPF_FurryMutationThoughtsHappy</li>
+    </restrictedThoughts>
+    
+    <cannotReceiveThoughts>
+      <!--■A■-->
+      <li>Affair</li>
+      <li>ApparelDamaged</li>
+      <li>AnnoyingVoice</li>
+      <li>AteAwfulMeal</li>
+      <li>AteFineMeal</li>
+      <li>AteHumanlikeMeatAsIngredient</li>
+      <li>AteHumanlikeMeatDirect</li>
+      <li>AteKibble</li>
+      <li>AteInImpressiveDiningRoom</li>
+      <li>AteInsectMeatDirect</li>
+      <li>AteInsectMeatAsIngredient</li>
+      <li>AteLavishMeal</li>
+      <li>AteRawHumanlikeMeat</li>
+      <li>AteWithoutTable</li>
+      <li>AttendedConcert</li>
+      <li>AttendedWedding</li>
+      <li>Aurora</li>
+      <!--■B■-->
+      <li>BondedAnimalBanished</li>
+      <li>BondedAnimalDied</li>
+      <li>BondedAnimalLost</li>
+      <li>BondedAnimalMaster</li>
+      <li>BrokeUpWithMe</li>
+      <li>BrokeUpWithMeMood</li>
+      <li>ButcheredHumanlikeCorpse</li>
+      <li>ButcheredHumanlikeCorpseOpinion</li>
+      <!--■C■-->
+      <li>CheatedOnMe</li>
+      <li>CheatedOnMeMood</li>
+      <li>ChemicalInterestVsTeetotaler</li>
+      <li>ColonistBanished</li>
+      <li>ColonistBanishedToDie</li>
+      <li>ColonistLeftUnburied</li>
+      <li>CreepyBreathing</li>
+      <!--■D■-->
+      <li>DeadMansApparel</li>
+      <li>Disfigured</li>
+      <li>DivorcedMe</li>
+      <li>DoingPassionateWork</li>
+      <!--■E■-->
+      <li>EnvironmentCold</li>
+      <li>EnvironmentDark</li>
+      <li>EnvironmentHot</li>
+      <li>ExecutedPrisoner</li>
+      <li>Expectations</li>
+      <!--■F■-->
+      <li>FailedRomanceAttemptOnMe</li>
+      <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
+      <li>FailedToRescueRelative</li>
+      <!--■G■-->
+      <li>GotMarried</li>
+      <li>GotSomeLovin</li>
+      <!--■H■-->
+      <li>HadAngeringFight</li>
+      <li>HadCatharticFight</li>
+      <li>HeldConcert</li>
+      <li>HoneymoonPhase</li>
+      <li>HospitalPatientRoomStats</li>
+      <li>HumanLeatherApparelSad</li>
+      <!--■I■-->
+      <li>Incestuous</li>
+      <li>Insulted</li>
+      <li>IRejectedTheirProposal</li>
+      <!--■J■-->
+      <li>JoyActivityInImpressiveRecRoom</li>
+      <!--■K■-->
+      <li>KilledColonist</li>
+      <li>KilledColonyAnimal</li>
+      <li>KilledMyBondedAnimal</li>
+      <li>KilledMyBrother</li>
+      <li>KilledMyDaughter</li>
+      <li>KilledMyFather</li>
+      <li>KilledMyFiance</li>
+      <li>KilledMyFriend</li>
+      <li>KilledMyKin</li>
+      <li>KilledMyLover</li>
+      <li>KilledMyMother</li>
+      <li>KilledMyRival</li>
+      <li>KilledMySister</li>
+      <li>KilledMySon</li>
+      <li>KilledMySpouse</li>
+      <li>KindWords</li>
+      <li>KindWordsMood</li>
+      <li>KnowBuriedInSarcophagus</li>
+      <li>KnowColonistExecuted</li>
+      <li>KnowGuestExecuted</li>
+      <li>KnowPrisonerDiedInnocent</li>
+      <!--■M■-->
+      <li>MyFianceDied</li>
+      <li>MyFianceeDied</li>
+      <li>MyUncleDied</li>
+      <li>MyCousinDied</li>
+      <li>MyKinDied</li>
+      <li>MyAuntDied</li>
+      <li>MyDaughterDied</li>
+      <li>MyGrandparentDied</li>
+      <li>MyHalfSiblingDied</li>
+      <li>MyHusbandDied</li>
+      <li>MyWifeDied</li>
+      <li>MyFatherDied</li>
+      <li>MyNephewDied</li>
+      <li>MyNieceDied</li>
+      <li>MySisterDied</li>
+      <li>MyAuntLost</li>
+      <li>MyBrotherDied</li>
+      <li>MyBrotherLost</li>
+      <li>MyCousinLost</li>
+      <li>MyDaughterLost</li>
+      <li>MyFatherLost</li>
+      <li>MyFianceLost</li>
+      <li>MyFianceeLost</li>
+      <li>MyGrandchildDied</li>
+      <li>MyGrandchildLost</li>
+      <li>MyGrandparentLost</li>
+      <li>MyHalfSiblingLost</li>
+      <li>MyHusbandLost</li>
+      <li>MyKinLost</li>
+      <li>MyLoverDied</li>
+      <li>MyLoverLost</li>
+      <li>MyMotherDied</li>
+      <li>MyMotherLost</li>
+      <li>MyNephewLost</li>
+      <li>MyNieceLost</li>
+      <li>MyOrganHarvested</li>
+      <li>MySisterLost</li>
+      <li>MySonDied</li>
+      <li>MySonLost</li>
+      <li>MyUncleLost</li>
+      <li>MyWifeLost</li>
+      <!--■N■-->
+      <li>Naked</li>
+      <li>NeedBeauty</li>
+      <li>NeedComfort</li>
+      <li>NeedFood</li>
+      <li>NeedJoy</li>
+      <li>NeedOutdoors</li>
+      <li>NeedRest</li>
+      <li>NeedRoomSize</li>
+      <li>NotBondedAnimalMaster</li>
+      <li>ClothedNudist</li>
+      <li>HappyNude</li>
+      <li>Nuzzled</li>
+      <!--■O■-->
+      <li>OpinionOfMyLover</li>
+      <li>ObservedLayingCorpse</li>
+      <li>ObservedLayingRottingCorpse</li>
+      <!--■P■-->
+      <li>Pain</li>
+      <li>PawnWithGoodOpinionDied</li>
+      <li>PawnWithGoodOpinionLost</li>
+      <li>PawnWithBadOpinionDied</li>
+      <li>PawnWithBadOpinionLost</li>
+      <li>Pretty</li>
+      <li>PrisonerBanishedToDie</li>
+      <li>PrisonBarracks</li>
+      <li>PrisonCell</li>
+      <li>PsychicEmanatorSoothe</li>
+      <li>PsychicDrone</li>
+      <!--■R■-->
+      <li>RebuffedMyRomanceAttempt</li>
+      <li>RebuffedMyRomanceAttemptMood</li>
+      <li>RejectedMyProposal</li>
+      <li>Rescued</li>
+      <li>RescuedMeByOfferingHelp</li>
+      <li>RescuedRelative</li>
+      <li>RescuedMe</li>
+      <!--■S■-->
+      <li>Sick</li>
+      <li>SleptInCold</li>
+      <li>Slighted</li>
+      <li>SoldPrisoner</li>
+      <li>SoldMyBondedAnimal</li>
+      <li>SoldMyBondedAnimalMood</li>
+      <li>SoldMyLovedOne</li>
+      <!--■T■-->
+      <!--■U■-->
+      <li>Ugly</li>
+      <!--■W■-->
+      <li>WantToSleepWithSpouseOrLover</li>
+      <li>WasImprisoned</li>
+      <li>WitnessedDeathAlly</li>
+      <li>WitnessedDeathNonAlly</li>
+      <li>WitnessedDeathFamily</li>
+      <li>WrongApparelGender</li>
+      <!--■ DRUGS, CORE ■-->
+      <li>SmokeleafHigh</li>
+      <li>Inebriated</li>
+      <li>AmbrosiaHigh</li>
+      <li>GoJuiceHigh</li>
+      <li>FlakeHigh</li>
+      <li>PsychiteTeaHigh</li>
+      <li>YayoHigh</li>
+      <!--■ IMPLANTS, CORE ■-->
+      <li>Joywire</li>
+      <!--■DUB'S BAD HYGIENE■-->
+      <li MayRequire="Dubwise.DubsBadHygiene">BowelLevel</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ColdWater</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">DrankCleanWater</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">HygieneLevel</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">ToiletPrivacy</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">tookDump</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">UsedPrivateBathroom</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">WashPrivacy</li>
+      <!--■RIM JOB WORLD■-->
+      <li MayRequire="rim.job.world">NeedSex</li>
+      <!--■PAWN MORPHER■-->
+      <li MayRequire="tachyonite.pawnmorpherpublic">FurryNoMutations</li>
+      <li MayRequire="tachyonite.pawnmorpherpublic">FurryMutationThoughtsHappy</li>
+    </cannotReceiveThoughts>
+  </thoughtSettings>
+ 
+<!--■■■RELATION SETTINGS■■■-->
+    <relationSettings>
+      <relationChanceModifierChild>0</relationChanceModifierChild>
+      <relationChanceModifierExLover>0</relationChanceModifierExLover>
+      <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+      <relationChanceModifierFiance>0</relationChanceModifierFiance>
+      <relationChanceModifierLover>0</relationChanceModifierLover>
+      <relationChanceModifierParent>0</relationChanceModifierParent>
+      <relationChanceModifierSibling>1</relationChanceModifierSibling>
+      <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        
+      <renamer>
+        <li>
+          <relation>Child</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>ExLover</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>ExSpouse</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>Fiance</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>Lover</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>Parent</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>Sibling</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+        <li>
+          <relation>Spouse</relation>
+          <label>Previous co-op partner</label>
+          <femaleLabel>Previous co-op partner</femaleLabel>
+        </li>
+      </renamer>
+    </relationSettings>
+  
+</alienRace>
+
+<!--■■■■■■■■■■■■■■■■■■TOOLS■■■■■■■■■■■■■■■■■■■■■■■-->
+    <!--■■■EYES■■■-->  
+    <tools>
+      <li>
+        <label>stare</label>
+        <capacities>
+          <li>ZRPF_DAMAGE_STARE_DEF</li>
+        </capacities>
+        <power>4</power> 
+        <cooldownTime>2.2</cooldownTime>
+        <linkedBodyPartsGroup>Eyes</linkedBodyPartsGroup>
+        <chanceFactor>20</chanceFactor>
+        
+        <!--<soundMeleeHit>ZRPF_SOUND_STARE_HIT_DEF</soundMeleeHit> Switched to damage def for sake of CE-->
+        <soundMeleeMiss>ZRPF_SOUND_STARE_MISS_DEF</soundMeleeMiss>
+      </li>
+      
+      <!--■■■HEAD■■■-->  
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3.5</power> <!--(Zetas 2)(Human 5)-->
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>1</chanceFactor>
+      </li> 
+      
+      <!--■■■TEETH■■■-->   
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power> <!--(Zetas 1)(Human 8.2)-->
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>1</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit> 
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      
+      <!--■■■FISTS■■■-->  
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>  <!--(Zetas 2)(Human 8.2)-->
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>  <!--(Zetas 2)(Human 8.2)-->
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <chanceFactor>1.5</chanceFactor>
+      </li>
+    </tools>
+  
+</AlienRace.ThingDef_AlienRace>
+
+</Defs>

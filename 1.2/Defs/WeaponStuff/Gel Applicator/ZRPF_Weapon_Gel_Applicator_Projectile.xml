@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ GEL APPLICATOR PROJECTILE DEF ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+<ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>ZRPF_PROJECTILE_GEL_APPLICATOR_DEF</defName>
+    
+    <label>Gel</label>
+    <graphicData>
+      <texPath>Projectiles/ZRPF_Projectile_Gel_Applicator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  
+<!--  <comps>
+    <li Class="CompProperties_Glower">
+      <glowRadius>2.4</glowRadius>
+      <overlightRadius>2.4</overlightRadius>
+      <glowColor>(32,32,32,0)</glowColor>
+    </li> 
+  </comps> -->
+  
+    <projectile>
+      <damageDef>ZRPF_DAMAGE_EXPLOSION_CONTROL_GEL_DEF</damageDef>
+      <preExplosionSpawnThingDef>ZRPF_CONTROL_GEL_FILTH_DEF</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.9</preExplosionSpawnChance>
+      <soundExplode>ZRPF_SOUND_GEL_IMPACT_DEF</soundExplode>
+      <damageAmountBase>1</damageAmountBase>
+      <armorPenetrationBase>2</armorPenetrationBase>
+      <stoppingPower>10</stoppingPower>
+      <explosionRadius>1.9</explosionRadius>
+      <explosionDelay>0</explosionDelay>
+      <arcHeightFactor>1</arcHeightFactor>
+      <shadowSize>1.6</shadowSize>
+      <speed>35</speed>
+    </projectile>
+</ThingDef>
+  
+</Defs>

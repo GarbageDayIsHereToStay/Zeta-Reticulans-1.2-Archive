@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ DAMAGE■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+<DamageDef Name="ZRPF_PULSE_DAMAGE_BASE">
+        <defName>ZRPF_DAMAGE_RETINALSCRAMBLER_DEF</defName>
+        <label>scrambler beam</label>
+        
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        
+        <hediff>Burn</hediff>
+        <hediffSkin>Burn</hediffSkin>
+        <hediffSolid>Burn</hediffSolid>
+        <additionalHediffs>
+            <li>
+                <hediff>ZRPF_HEDIFF_RETINALSCRAMBLE_DEF</hediff>
+                <severityPerDamageDealt>0.08</severityPerDamageDealt>
+                <victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+            </li>
+        </additionalHediffs>
+        
+        <defaultDamage>4</defaultDamage>
+        <armorCategory>Heat</armorCategory>
+        <harmsHealth>true</harmsHealth>
+        <makesBlood>false</makesBlood>
+        <externalViolence>true</externalViolence>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+        
+        <deathMessage>{0} has been shot to death.</deathMessage>
+        
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+</DamageDef>
+    
+</Defs>

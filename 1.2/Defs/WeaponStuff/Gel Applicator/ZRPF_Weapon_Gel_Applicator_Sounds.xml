@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!--■■■■■■■■■■■■■■■■■■ GEL  SOUND DEFS ■■■■■■■■■■■-->
+    <!---■■■A) APPLICATOR■■■-->
+<SoundDef>
+    <defName>ZRPF_SOUND_GEL_APPLICATOR_DEF</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>6</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>ZRPF_Sound_Gel_Applicator</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>       
+        <pitchRange>
+          <min>0.8082353</min>        
+          <max>1.205882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+</SoundDef>
+  
+    <!--■■■B) IMPACT■■■-->
+<SoundDef>
+    <defName>ZRPF_SOUND_GEL_IMPACT_DEF</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>3</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>ZRPF_Sound_Gel_Impact</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>45</min>        
+          <max>55</max>
+        </volumeRange>       
+        <pitchRange>
+          <min>0.8082353</min>        
+          <max>1.205882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+</SoundDef> 
+
+</Defs>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ GEL APPLICATOR WEAPON DEF■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+    <!--■■■PRESENTATION■■■-->      
+<ThingDef ParentName="ZRPF_WEAPON_BASE_MEDIUM_DEF">
+    <defName>ZRPF_WEAPON_GEL_APPLICATOR_DEF</defName>
+    <label>gel applicator</label>
+    <description>Gel applicators are designed to incapacitate large groups of bio-assets at low causality rates.</description>
+
+    <graphicData>
+      <texPath>Weapons/ZRPF_Gel_Applicator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--<drawSize>1.2</drawSize>-->
+    </graphicData>
+  
+    <soundInteract>Interact_Shotgun</soundInteract> 
+    <meleeHitSound>ZRPF_SOUND_GEL_IMPACT_DEF</meleeHitSound>
+    
+    <!--■■■STATS + VERBS■■■-->
+  
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>12</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.05</AccuracyLong>
+      <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <MoveSpeed>-1</MoveSpeed>
+    </equippedStatOffsets>
+    
+    <verbs>
+      <li>
+        <defaultProjectile>ZRPF_PROJECTILE_GEL_APPLICATOR_DEF</defaultProjectile>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <forcedMissRadius>4</forcedMissRadius>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <warmupTime>1.5</warmupTime>
+        <range>11.9</range>
+        <soundCast>ZRPF_SOUND_GEL_APPLICATOR_DEF</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+    
+    <!--■■■TAGS + TOOLS■■■-->
+    <weaponTags>
+      <li>ZRPF_TAG_WEAPON_HIGHTIER</li>
+    </weaponTags>
+    
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>gel tip</label>
+        <capacities>
+          <li>ZRPF_DAMAGE_MELEE_CONTROL_GEL_DEF</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>3</cooldownTime>
+        <chanceFactor>30</chanceFactor>
+      </li>
+    </tools>
+</ThingDef>
+
+</Defs>

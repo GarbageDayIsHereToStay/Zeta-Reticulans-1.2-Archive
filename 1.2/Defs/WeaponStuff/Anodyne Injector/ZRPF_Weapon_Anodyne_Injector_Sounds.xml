@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+<!--■■■■■■■■■■■■■■■■■■ ANODYNE INJECTOR SOUND DEF ■■■■■■■■■■■-->
+<SoundDef>
+    <defName>ZRPF_SOUND_BOLT_DEF</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>ZRPF_Sound_Bolt</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>35</min>        
+          <max>40</max>
+        </volumeRange>       
+        <pitchRange>
+          <min>0.8082353</min>        
+          <max>1.205882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+</SoundDef>
+  
+</Defs>

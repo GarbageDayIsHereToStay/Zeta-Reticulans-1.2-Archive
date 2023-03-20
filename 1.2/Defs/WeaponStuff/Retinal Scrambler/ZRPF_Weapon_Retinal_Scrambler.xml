@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ RETINAL SCRAMBLER WEAPON DEF ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■-->
+    <!--■■■PRESENTATION■■■-->      
+<ThingDef ParentName="ZRPF_WEAPON_BASE_LOW_DEF">
+    <defName>ZRPF_WEAPON_RETINAL_SCRAMBLER_DEF</defName>
+    <label>retinal scrambler</label>
+    <description>A suppression weapon designed to cover withdrawal after procument raids by impairing the sight of pursuers.</description>
+    
+    <graphicData>
+      <texPath>Weapons/ZRPF_Retinal_Scrambler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+  
+    <soundInteract>Interact_Shotgun</soundInteract>
+  
+    <!--■■■STATS + VERBS■■■-->
+    
+    
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+    </statBases>
+    
+    <verbs>
+      <li>
+        <warmupTime>1.7</warmupTime>
+        <defaultProjectile>ZRPF_PROJECTILE_RETINALSCRAMBLER_DEF</defaultProjectile>
+        <verbClass>Verb_Shoot</verbClass>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>36.9</range>
+        <soundCast>ZRPF_SOUND_SCRAMBLER_DEF</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+    
+    <!--■■■TAGS + TOOLS■■■-->
+
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

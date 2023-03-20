@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--■■■■■■■■■■■■■■■■■
+    1. Damage
+    ■■■■■■■■■■■■■■■■■--> 
+
+<!--■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■3. DAMAGE■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■--> 
+<DamageDef Name="ZRWP_DAMAGE_BASE_ANODYNE_INJECTOR_DEF">
+    <defName>ZRPF_DAMAGE_ANODYNE_INJECTOR_DEF</defName>
+    <label>bolt</label>
+    
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    
+    <hediff>Stab</hediff>
+    <hediffSolid>Stab</hediffSolid>
+    <additionalHediffs>
+      <li>
+        <hediff>ZRPF_HEDIFF_ANESTHETIC_DEF</hediff>
+        <severityPerDamageDealt>0.063</severityPerDamageDealt>
+        <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    
+    <defaultDamage>2</defaultDamage>
+    <armorCategory>Sharp</armorCategory>
+    <harmsHealth>true</harmsHealth>
+    <makesBlood>true</makesBlood>
+    <externalViolence>true</externalViolence>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    
+    <deathMessage>{0} has died from injections.</deathMessage>
+    
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+</DamageDef>
+ 
+</Defs>

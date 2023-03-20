@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  
+<!--■■■■■■■■■■■■■■■■■■ RETINAL SCRAMBLER SOUND DEF ■■■■■■■■■■■-->
+<SoundDef>
+    <defName>ZRPF_SOUND_SCRAMBLER_DEF</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>ZRPF_Sound_Scrambler</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>150</min>        
+          <max>150</max>
+        </volumeRange>       
+        <pitchRange>
+          <min>1.082353</min>        
+          <max>1.205882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+</SoundDef>
+ 
+   
+</Defs>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>ZRPF_HEDIFF_UI_HIDER_OUTDOORS_DEF</defName>
+    <label>Outdoor UI bar remover</label>
+    <labelNoun>HIDDEN NO OUTDOOR UI</labelNoun>
+    <description>I sure hope this doesn't causes bugs somehow!</description>
+    
+ 
+    <chronic>true</chronic>
+    <isBad>false</isBad>
+    <tendable>false</tendable>
+    <everCurableByItem>false</everCurableByItem>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+    <makesAlert>false</makesAlert>
+    
+    <disablesNeed>Outdoors</disablesNeed>
+    
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>ZRPF_HEDIFF_UI_HIDER_COMFORT_DEF</defName>
+    <label>comfort UI bar remover</label>
+    <labelNoun>HIDDEN NO COMFORT UI</labelNoun>
+    <description>I sure hope this doesn't causes bugs somehow!</description>
+    
+    
+    <chronic>true</chronic>
+    <isBad>false</isBad>
+    <tendable>false</tendable>
+    <everCurableByItem>false</everCurableByItem>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+    <makesAlert>false</makesAlert>
+    
+    <disablesNeed>Comfort</disablesNeed>
+    
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>
